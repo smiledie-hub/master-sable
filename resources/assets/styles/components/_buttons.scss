@@ -11,6 +11,7 @@
   font-weight: 600;
   cursor: pointer;
   user-select: none;
+  transition: background-color 300ms, color 300ms, border-color 300ms;
 
   &__icon {
     margin-left: 35px;
@@ -20,6 +21,10 @@
   &--main {
     background-color: $color-main;
     color: #fff;
+
+    &:hover {
+      background-color: #000;
+    }
   }
 
   &-gray {

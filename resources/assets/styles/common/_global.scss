@@ -11,14 +11,40 @@ body {
   box-sizing: border-box;
 }
 
+img {
+  max-width: 100%;
+  object-fit: cover;
+  user-select: none;
+  pointer-events: none;
+}
+
 a {
-  color: $color-main;
-  opacity: 0.4;
-  transition: opacity 300ms;
+  color: inherit;
+  text-decoration: none;
   display: inline-block;
+  transition: opacity 300ms;
 
   &:hover {
-    opacity: 1;
+    opacity: 0.6;
+  }
+
+  &:not(.link-default) {
+    text-decoration: underline;
+    opacity: 0.4;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
+
+.link-default {
+  display: inline-flex;
+  align-items: center;
+
+  &__icon {
+    margin-left: 35px;
+    font-size: 0.8em;
   }
 }
 
@@ -30,61 +56,30 @@ a {
   width: 100%;
 }
 
-.contact-form {
-  position: relative;
-  margin-bottom: 73px;
-
-  &__feather {
-    position: absolute;
-    top: 68px;
-    right: 55px;
-    font-size: 28px;
+.text {
+  &-right {
+    text-align: right;
   }
 
-  &__container {
-    padding: 130px 152px 152px 110px;
-    border: 2px solid #000;
+  &-center {
+    text-align: center;
   }
 
-  &__cell {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  &-left {
+    text-align: left;
+  }
+}
+
+.color {
+  &-diamond {
+    color: $color-diamond;
   }
 
-  &__btn {
-    margin: 10px 0 25px;
+  &-gold {
+    color: $color-gold;
   }
 
-  &__caption {
-    font-weight: 300;
-    font-size: 11px;
-    line-height: 136%;
-    opacity: 0.6;
-  }
-
-  &__title {
-    max-width: 458px;
-    font-family: Montserrat, sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 26px;
-    line-height: 32px;
-    letter-spacing: 0.02em;
-
-    & > span {
-      display: block;
-      margin-top: 0.7em;
-    }
-  }
-
-  &__field {
-    max-width: 304px;
-    display: block;
-    margin-bottom: 20px;
-
-    input {
-      width: 100%;
-    }
+  &-brown {
+    color: $color-brown;
   }
 }

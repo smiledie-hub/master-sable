@@ -1,0 +1,66 @@
+.contact-form {
+  position: relative;
+
+  &__feather {
+    position: absolute;
+    top: 68px;
+    right: 55px;
+    font-size: 28px;
+  }
+
+  &__container {
+    border: 2px solid #000;
+    padding: 130px 152px 110px;
+  }
+
+  &__cell {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__btn {
+    margin: 10px 0 25px;
+  }
+
+  &__caption {
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 136%;
+    opacity: 0.6;
+    max-width: 428px;
+  }
+
+  &__link {
+    text-decoration: underline;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+  }
+
+  &__title {
+    max-width: 458px;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+
+    & > span {
+      display: block;
+      margin-top: 0.7em;
+    }
+  }
+
+  &__field {
+    max-width: 304px;
+    display: block;
+    margin-bottom: 20px;
+
+    input {
+      width: 100%;
+    }
+  }
+}

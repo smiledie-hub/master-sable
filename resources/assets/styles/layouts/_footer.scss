@@ -89,7 +89,6 @@
       font-weight: 500;
       text-decoration: none;
       opacity: 1;
-      display: inline-block;
 
       &:hover {
         opacity: 0.6;
@@ -99,77 +98,5 @@
         margin-bottom: 0.8em;
       }
     }
-  }
-}
-
-.cult {
-  &__icon {
-    //
-  }
-
-  &__text {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1em;
-    line-height: 143%;
-    letter-spacing: 0.02em;
-    display: block;
-  }
-}
-
-.socials {
-  &__item {
-    opacity: 1;
-    text-decoration: none;
-    font-size: 21px;
-
-    &:not(:last-child) {
-      margin-right: 56px;
-    }
-
-    &:hover {
-      opacity: 0.6;
-    }
-  }
-}
-
-.mailing {
-  &__field {
-    margin-bottom: 15px;
-    border: 1.5px solid #111;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: relative;
-  }
-
-  &__input {
-    height: 55px;
-    padding: 0 0 0 30px;
-    border: none !important;
-
-    &::placeholder {
-      font-weight: 600;
-      text-transform: none !important;
-    }
-  }
-
-  &__send {
-    height: 55px;
-    width: 100%;
-    cursor: pointer;
-    border: none !important;
-    transition: opacity 0.3s;
-
-    &:hover {
-      opacity: 0.6;
-    }
-  }
-
-  &__caption {
-    font-size: 1em;
-    line-height: 143%;
-    letter-spacing: 0.01em;
-    opacity: 0.6;
   }
 }

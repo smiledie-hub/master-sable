@@ -1,0 +1,18 @@
+.quality {
+  &__container-title {
+    max-width: 637px;
+  }
+
+  &__header {
+    margin-bottom: 55px;
+  }
+
+  &__title {
+    letter-spacing: 0.03em;
+    line-height: 54px;
+  }
+
+  &__container-text {
+    max-width: 480px;
+  }
+}

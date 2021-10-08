@@ -76,10 +76,8 @@
     "yargs": "^16.1.0"
   },
   "dependencies": {
-    "dom7": "^4.0.0",
     "jquery": "^3.3.1",
     "popper.js": "^1.14.7",
-    "ssr-window": "^4.0.0",
     "swiper": "^7.0.8"
   }
 }

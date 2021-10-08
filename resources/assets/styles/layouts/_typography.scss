@@ -24,4 +24,8 @@ p {
   font-weight: normal;
   font-size: 16px;
   line-height: 150%;
+
+  &:not(:last-child) {
+    margin-bottom: 0.8em;
+  }
 }

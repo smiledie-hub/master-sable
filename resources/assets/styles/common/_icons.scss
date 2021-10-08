@@ -1,6 +1,7 @@
 $icomoon-font-family: "icons" !default;
 $icomoon-font-path: "/wp-content/themes/master-sable/resources/assets/fonts" !default;
 
+$icon-cult: "\e913";
 $icon-logotype: "\e900";
 $icon-gold: "\e901";
 $icon-sable: "\e902";
@@ -45,6 +46,12 @@ $icon-recomended: "\e912";
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-cult {
+  &::before {
+    content: $icon-cult;
+  }
 }
 
 .icon-logotype {
