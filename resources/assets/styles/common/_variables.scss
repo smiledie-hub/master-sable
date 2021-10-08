@@ -1,10 +1,7 @@
-/** Import Bootstrap functions */
-@import "~bootstrap/scss/functions";
+$color-main: #0c0c0c;
+$color-gray: #262626;
+$color-light-gray: #f1f1f1;
 
-$theme-colors: (
-  primary: #525ddc
-);
-
-/** Bootstrap navbar fix (https://git.io/fADqW) */
-$navbar-dark-toggler-icon-bg: none;
-$navbar-light-toggler-icon-bg: none;
+$color-brown: #9b8567;
+$color-gold: #dab862;
+$color-diamond: #7adae0;

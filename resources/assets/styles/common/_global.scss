@@ -1,0 +1,90 @@
+@import "variables";
+
+html,
+body {
+  color: $color-main;
+  background-color: #fff;
+  font-family: Montserrat, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: $color-main;
+  opacity: 0.4;
+  transition: opacity 300ms;
+  display: inline-block;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.cells {
+  display: flex;
+}
+
+.cell {
+  width: 100%;
+}
+
+.contact-form {
+  position: relative;
+  margin-bottom: 73px;
+
+  &__feather {
+    position: absolute;
+    top: 68px;
+    right: 55px;
+    font-size: 28px;
+  }
+
+  &__container {
+    padding: 130px 152px 152px 110px;
+    border: 2px solid #000;
+  }
+
+  &__cell {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__btn {
+    margin: 10px 0 25px;
+  }
+
+  &__caption {
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 136%;
+    opacity: 0.6;
+  }
+
+  &__title {
+    max-width: 458px;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+
+    & > span {
+      display: block;
+      margin-top: 0.7em;
+    }
+  }
+
+  &__field {
+    max-width: 304px;
+    display: block;
+    margin-bottom: 20px;
+
+    input {
+      width: 100%;
+    }
+  }
+}

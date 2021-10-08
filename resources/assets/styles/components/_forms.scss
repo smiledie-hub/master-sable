@@ -1,19 +1,27 @@
-/** Search form */
-.search-form {
-  @extend .form-inline;
+input,
+textarea,
+button {
+  font-family: Montserrat, sans-serif;
+  background: none;
+  outline: none;
+  box-shadow: none;
+  box-sizing: border-box;
 }
 
-.search-form label {
-  @extend .form-group;
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="password"],
+textarea {
+  padding: 20px 30px;
+  border: 1.5px solid #111;
 
-  font-weight: normal;
-}
-
-.search-form .search-field {
-  @extend .form-control;
-}
-
-.search-form .search-submit {
-  @extend .btn;
-  @extend .btn-secondary;
+  &::placeholder {
+    font-weight: 500;
+    color: #111;
+    font-size: 14px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    font-feature-settings: "pnum" on, "lnum" on;
+  }
 }

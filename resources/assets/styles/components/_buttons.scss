@@ -1,0 +1,48 @@
+@import "../common/variables";
+
+.btn {
+  padding: 22px 35px;
+  text-decoration: none;
+  background: none;
+  border: none;
+  box-shadow: none;
+  outline: none;
+  box-sizing: border-box;
+  font-weight: 600;
+  cursor: pointer;
+  user-select: none;
+
+  &__icon {
+    margin-left: 35px;
+    font-size: 0.8em;
+  }
+
+  &--main {
+    background-color: $color-main;
+    color: #fff;
+  }
+
+  &-gray {
+    background-color: $color-gray;
+    color: #fff;
+  }
+
+  &--outline {
+    border: 1.5px solid;
+
+    &-main {
+      border-color: $color-main;
+      color: $color-main;
+    }
+
+    &-white {
+      border-color: #fff;
+      color: #fff;
+    }
+
+    &-gray {
+      border-color: $color-gray;
+      color: $color-gray;
+    }
+  }
+}

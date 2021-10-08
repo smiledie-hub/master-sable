@@ -1,0 +1,175 @@
+@import "../common/variables";
+
+.footer {
+  padding: 70px 0;
+  font-size: 14px;
+
+  &__start {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__wrapper {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: minmax(200px, 280px) 1fr minmax(280px, 430px);
+    grid-gap: 0 150px;
+  }
+
+  &__section {
+    display: flex;
+    justify-content: space-between;
+
+    &:not(:last-child) {
+      margin-bottom: 64px;
+    }
+  }
+
+  &__section-item {
+    width: 250px;
+  }
+
+  &__privacy {
+    margin-top: 1em;
+  }
+
+  &__adressess {
+    max-width: 305px;
+  }
+
+  &__socials {
+    margin: 33px 0 37px;
+  }
+
+  &__adress {
+    max-width: 253px;
+    font-weight: 500;
+    font-size: 1em;
+    line-height: 157%;
+
+    &:not(:last-child) {
+      margin-bottom: 35px;
+    }
+  }
+
+  &__cult {
+    display: block;
+    margin-top: 57px;
+  }
+
+  &__text {
+    font-weight: 500;
+    font-size: 1em;
+    line-height: 143%;
+    letter-spacing: 0.01em;
+  }
+
+  &__title {
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 1em;
+    letter-spacing: 0.04em;
+    margin-bottom: 32px;
+    text-decoration: none;
+    opacity: 1;
+
+    & > span {
+      margin-left: 1em;
+      font-size: 0.8em;
+    }
+  }
+
+  &__nav {
+    display: flex;
+    flex-direction: column;
+
+    a {
+      font-weight: 500;
+      text-decoration: none;
+      opacity: 1;
+      display: inline-block;
+
+      &:hover {
+        opacity: 0.6;
+      }
+
+      &:not(:last-child) {
+        margin-bottom: 0.8em;
+      }
+    }
+  }
+}
+
+.cult {
+  &__icon {
+    //
+  }
+
+  &__text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 143%;
+    letter-spacing: 0.02em;
+    display: block;
+  }
+}
+
+.socials {
+  &__item {
+    opacity: 1;
+    text-decoration: none;
+    font-size: 21px;
+
+    &:not(:last-child) {
+      margin-right: 56px;
+    }
+
+    &:hover {
+      opacity: 0.6;
+    }
+  }
+}
+
+.mailing {
+  &__field {
+    margin-bottom: 15px;
+    border: 1.5px solid #111;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+  }
+
+  &__input {
+    height: 55px;
+    padding: 0 0 0 30px;
+    border: none !important;
+
+    &::placeholder {
+      font-weight: 600;
+      text-transform: none !important;
+    }
+  }
+
+  &__send {
+    height: 55px;
+    width: 100%;
+    cursor: pointer;
+    border: none !important;
+    transition: opacity 0.3s;
+
+    &:hover {
+      opacity: 0.6;
+    }
+  }
+
+  &__caption {
+    font-size: 1em;
+    line-height: 143%;
+    letter-spacing: 0.01em;
+    opacity: 0.6;
+  }
+}
