@@ -12,7 +12,7 @@
                     <p>С нами покупатель всегда может быть уверен в качестве приобретаемого товара. </p>
                 </div>
 
-                <a href="#" class="jewel__link link-default">О продукции и гарантиях <span class="link-default__icon icon-long-arrow"></span></a>
+                <a href="#" class="jewel__link link link--default">О продукции и гарантиях <span class="link__icon icon-long-arrow"></span></a>
             </div>
         </div>
         <div class="jewel__cells cells">
@@ -36,7 +36,7 @@
                         </div>
                     </div>
                     <div class="text-right">
-                        <a href="#" class="jewel__link link-default">Читать статью <span class="link-default__icon icon-long-arrow"></span></a>
+                        <a href="#" class="jewel__link link link--default">Читать статью <span class="link__icon icon-long-arrow"></span></a>
                     </div>
                 </div>
             </div>

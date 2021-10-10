@@ -1,0 +1,65 @@
+.sets-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  grid-gap: 30px;
+}
+
+.sets {
+  &__title {
+    margin-bottom: 80px;
+  }
+
+  &__btns {
+    display: table;
+    margin: 88px auto 0;
+
+    .btn {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+}
+
+.set {
+  position: relative;
+  transition: opacity 300ms;
+  user-select: none;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &__link {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 10;
+  }
+
+  &__cover {
+    height: 430px;
+    margin-bottom: 20px;
+  }
+
+  &__title {
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    margin-bottom: 12px;
+  }
+
+  &__text {
+    font-size: 14px;
+    opacity: 0.4;
+    margin-bottom: 22px;
+  }
+
+  &__price {
+    font-size: 14px;
+  }
+}

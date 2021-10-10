@@ -3,11 +3,11 @@
     <div class="footer__wrapper">
       <div class="footer__start">
         <div class="logotype">
-          <a href="/" class="link-default"><span class="icon-logotype"></span></a>
+          <a href="/" class="link link--default"><span class="icon-logotype"></span></a>
         </div>
         <div>
           <p class="footer__text">© Copyright 2020 Master Sobol</p>
-          <a class="footer__privacy" href="#" target="_blank">Политика конфиденциальности</a>
+          <a class="footer__privacy link" href="#" target="_blank">Политика конфиденциальности</a>
 
           <div class="footer__cult cult">
             <a href="#" class="link-default"><span class="cult__icon icon-cult"></span></a>
@@ -29,7 +29,7 @@
             </nav>
           </div>
           <div class="footer__section-item">
-            <a href="#" class="footer__title link-default">ПОСТАВЩИКАМ <span class="icon-long-arrow"></span></a>
+            <a href="#" class="footer__title link link--default">ПОСТАВЩИКАМ <span class="icon-long-arrow"></span></a>
             <p class="footer__title">ШУБНЫЕ НАБОРЫ</p>
 
             <nav class="footer__nav">
@@ -96,8 +96,8 @@
           </form>
 
           <div class="footer__socials socials">
-            <a class="socials__item link-default" href="#" target="_blank"><span class="icon-instagram"></span></a>
-            <a class="socials__item link-default" href="#" target="_blank"><span class="icon-facebook"></span></a>
+            <a class="socials__item link link--default " href="#" target="_blank"><span class="icon-instagram"></span></a>
+            <a class="socials__item link link--default" href="#" target="_blank"><span class="icon-facebook"></span></a>
           </div>
 
           <p class="footer__adress">Екатеринбург ул. Хохрякова, 48 (КД Тихвин 4 очередь)</p>

@@ -11,6 +11,11 @@ body {
   box-sizing: border-box;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
 img {
   max-width: 100%;
   object-fit: cover;
@@ -18,33 +23,33 @@ img {
   pointer-events: none;
 }
 
-a {
+.link {
   color: inherit;
   text-decoration: none;
   display: inline-block;
   transition: opacity 300ms;
 
+  &--default {
+    display: inline-flex;
+    align-items: center;
+  }
+
+  &__icon {
+    margin-left: 35px;
+    font-size: 0.8em;
+  }
+
   &:hover {
     opacity: 0.6;
   }
 
-  &:not(.link-default) {
+  &:not(.link--default) {
     text-decoration: underline;
     opacity: 0.4;
 
     &:hover {
       opacity: 1;
     }
-  }
-}
-
-.link-default {
-  display: inline-flex;
-  align-items: center;
-
-  &__icon {
-    margin-left: 35px;
-    font-size: 0.8em;
   }
 }
 

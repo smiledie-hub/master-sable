@@ -9,7 +9,7 @@
                     продукцией от
                     компании Мастер Соболь. <span>Консультация бесплатна.</span></h2>
 
-                <a href="#" class="contact-form__link link-default">Нужна помощь? Свяжитесь с нами</a>
+                <a href="#" class="contact-form__link link link--default">Нужна помощь? Свяжитесь с нами</a>
             </div>
             <div class="contact-form__cell cell">
                 <form class="form">
