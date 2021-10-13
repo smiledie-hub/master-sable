@@ -45,12 +45,35 @@
                 </div>
                 <div class="card-image card-image--screen">
                     <div class="card-image__header">
-                        <div class="image-slider">
-                            <div class="image-slider__item">
-                                <picture>
-                                    <img class="image-slider__cover"
-                                         src="/wp-content/themes/master-sable/resources/assets/images/offer/img3.jpg" alt="cover">
-                                </picture>
+                        <div class="offer__slider">
+                            <div class="image-slider swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="image-slider__item swiper-slide">
+                                        <picture>
+                                            <img class="card-image__cover"
+                                                 src="/wp-content/themes/master-sable/resources/assets/images/offer/img3.jpg" alt="cover">
+                                        </picture>
+                                    </div>
+                                    <div class="image-slider__item swiper-slide">
+                                        <picture>
+                                            <img class="card-image__cover"
+                                                 src="/wp-content/themes/master-sable/resources/assets/images/offer/img3.jpg" alt="cover">
+                                        </picture>
+                                    </div>
+                                    <div class="image-slider__item swiper-slide">
+                                        <picture>
+                                            <img class="card-image__cover"
+                                                 src="/wp-content/themes/master-sable/resources/assets/images/offer/img3.jpg" alt="cover">
+                                        </picture>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="offer__prev swiper-button-prev">
+                                <span class="icon-arrow-left"></span>
+                            </div>
+                            <div class="offer__next swiper-button-next">
+                                <span class="icon-arrow-right"></span>
                             </div>
                         </div>
                     </div>

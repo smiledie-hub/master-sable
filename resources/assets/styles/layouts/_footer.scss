@@ -4,17 +4,68 @@
   padding: 70px 0;
   font-size: 14px;
 
+  @media (max-width: 767px) {
+    padding: 40px 0 80px;
+  }
+
   &__start {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    grid-area: start;
+
+    @media (max-width: 1000px) {
+      max-width: 580px;
+    }
+
+    @media (max-width: 1200px) {
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+  }
+
+  &__navs {
+    grid-area: navs;
+
+    @media (max-width: 1000px) {
+      max-width: 580px;
+    }
+  }
+
+  &__end {
+    grid-area: end;
+
+    @media (max-width: 1000px) {
+      max-width: 580px;
+    }
   }
 
   &__wrapper {
     display: grid;
     justify-content: space-between;
     grid-template-columns: minmax(200px, 280px) 1fr minmax(280px, 430px);
+    grid-template-areas: "start navs end";
     grid-gap: 0 150px;
+
+    @media (max-width: 1560px) {
+      grid-template-columns: 1fr 1fr;
+      grid-template-areas: "start navs" "end end";
+      grid-gap: 100px;
+    }
+
+    @media (max-width: 767px) {
+      grid-gap: 40px;
+    }
+
+    @media (max-width: 1200px) {
+      grid-template-columns: 1fr;
+      grid-template-areas: "start" "navs" "end";
+    }
+
+    @media (max-width: 1000px) {
+      justify-items: center;
+    }
   }
 
   &__section {
@@ -23,19 +74,58 @@
 
     &:not(:last-child) {
       margin-bottom: 64px;
+
+      @media (max-width: 767px) {
+        margin-bottom: 0;
+      }
+    }
+
+    @media (max-width: 1200px) {
+      flex-wrap: wrap;
     }
   }
 
   &__section-item {
     width: 250px;
+
+    @media (max-width: 767px) {
+      max-width: 240px;
+      width: 100%;
+      margin-right: auto;
+      margin-left: auto;
+      margin-bottom: 40px;
+    }
   }
 
   &__adressess {
     max-width: 305px;
+
+    @media (max-width: 1560px) {
+      display: flex;
+      max-width: 100%;
+      grid-gap: 35px;
+    }
+
+    .mailing {
+      @media (max-width: 1560px) {
+        max-width: 305px;
+      }
+    }
+
+    @media (max-width: 1200px) {
+      flex-direction: column;
+      align-items: center;
+    }
   }
 
   &__socials {
     margin: 33px 0 37px;
+
+    @media (max-width: 1560px) {
+      margin: 10px 0 37px;
+      display: flex;
+      align-items: flex-start;
+    }
   }
 
   &__adress {
@@ -46,6 +136,12 @@
 
     &:not(:last-child) {
       margin-bottom: 35px;
+    }
+
+    @media (max-width: 1560px) {
+      &:not(:last-child) {
+        margin-bottom: 0;
+      }
     }
   }
 
@@ -80,6 +176,7 @@
   &__nav {
     display: flex;
     flex-direction: column;
+    grid-area: nav;
 
     a {
       font-weight: 500;

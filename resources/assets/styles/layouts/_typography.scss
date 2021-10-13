@@ -8,14 +8,26 @@ h6 {
   font-style: normal;
   font-weight: normal;
   line-height: 104%;
+
+  @media (max-width: 767px) {
+    line-height: 150%;
+  }
 }
 
 h1 {
   font-size: 70px;
+
+  @media (max-width: 767px) {
+    font-size: 40px;
+  }
 }
 
 h2 {
   font-size: 48px;
+
+  @media (max-width: 767px) {
+    font-size: 21px;
+  }
 }
 
 p {
@@ -27,5 +39,9 @@ p {
 
   &:not(:last-child) {
     margin-bottom: 0.8em;
+  }
+
+  @media (max-width: 767px) {
+    font-size: 14px;
   }
 }

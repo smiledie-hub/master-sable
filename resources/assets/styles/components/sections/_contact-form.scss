@@ -1,22 +1,44 @@
 .contact-form {
-  position: relative;
-
   &__feather {
     position: absolute;
     top: 68px;
     right: 55px;
     font-size: 28px;
+
+    @media (max-width: 767px) {
+      top: -20px;
+      right: 10px;
+      font-size: 3em;
+    }
   }
 
   &__container {
+    position: relative;
+  }
+
+  &__wrapper {
     border: 2px solid #000;
     padding: 130px 152px 110px;
+
+    @media (max-width: 1000px) {
+      padding: 40px 50px;
+    }
+
+    @media (max-width: 767px) {
+      padding: 20px;
+    }
   }
 
   &__cell {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
+    @media (max-width: 1000px) {
+      max-width: 580px;
+      margin-right: auto;
+      margin-left: auto;
+    }
   }
 
   &__btn {
@@ -29,6 +51,10 @@
     line-height: 136%;
     opacity: 0.6;
     max-width: 428px;
+
+    @media (max-width: 1000px) {
+      max-width: 100%;
+    }
   }
 
   &__link {
@@ -48,6 +74,16 @@
     line-height: 32px;
     letter-spacing: 0.02em;
 
+    @media (max-width: 1000px) {
+      max-width: 100%;
+    }
+
+    @media (max-width: 767px) {
+      font-size: 16px;
+      margin-bottom: 2em;
+      line-height: 150%;
+    }
+
     & > span {
       display: block;
       margin-top: 0.7em;
@@ -58,6 +94,10 @@
     max-width: 304px;
     display: block;
     margin-bottom: 20px;
+
+    @media (max-width: 1000px) {
+      max-width: 100%;
+    }
 
     input {
       width: 100%;

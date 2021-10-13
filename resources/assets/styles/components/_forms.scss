@@ -17,6 +17,10 @@ textarea {
   border: 1.5px solid #111;
   transition: box-shadow 300ms;
 
+  @media (max-width: 767px) {
+    padding: 14px 24px;
+  }
+
   &::placeholder {
     font-weight: 500;
     color: #111;
@@ -25,5 +29,9 @@ textarea {
     text-transform: uppercase;
     font-feature-settings: "pnum" on, "lnum" on;
     user-select: none;
+
+    @media (max-width: 767px) {
+      font-size: 12px;
+    }
   }
 }

@@ -1,11 +1,19 @@
 .jewel {
   &__title {
     margin-bottom: 40px;
+
+    @media (max-width: 767px) {
+      margin-bottom: 20px;
+    }
   }
 
   &__desc {
     margin-bottom: 50px;
     max-width: 480px;
+
+    @media (max-width: 1000px) {
+      max-width: 100%;
+    }
   }
 
   &__caption {
@@ -13,6 +21,10 @@
     opacity: 0.4;
     letter-spacing: 0.05em;
     font-size: 14px;
+
+    @media (max-width: 767px) {
+      text-align: center;
+    }
   }
 
   &__link {
@@ -23,9 +35,19 @@
     letter-spacing: 0.02em;
   }
 
+  .text-right {
+    @media (max-width: 767px) {
+      text-align: center;
+    }
+  }
+
   &__items {
     margin-bottom: 40px;
     padding-right: 40px;
+
+    @media (max-width: 767px) {
+      padding-right: 0;
+    }
   }
 
   &__text {
@@ -39,16 +61,30 @@
 
   &__jewels-wrapper {
     padding-right: 65px;
+
+    @media (max-width: 1000px) {
+      padding-right: 0;
+    }
   }
 
   &__cells {
     &:first-child {
       margin-bottom: 150px;
       align-items: flex-end;
+
+      @media (max-width: 767px) {
+        margin-bottom: 80px;
+      }
     }
 
     &:last-child {
       align-items: center;
+    }
+
+    @media (max-width: 1000px) {
+      max-width: 580px;
+      margin-right: auto;
+      margin-left: auto;
     }
   }
 }
@@ -57,6 +93,13 @@
   display: flex;
   justify-content: space-between;
   grid-gap: 26px;
+
+  @media (max-width: 767px) {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    grid-gap: 60px;
+  }
 }
 
 .jewel-item {
@@ -85,6 +128,10 @@
 
     &:not(:last-child) {
       margin-bottom: 27px;
+
+      @media (max-width: 767px) {
+        margin-bottom: 1em;
+      }
     }
   }
 }

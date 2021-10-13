@@ -1,9 +1,9 @@
 <section class="contact-form">
-    <div class="container">
+    <div class="contact-form__container container">
         <div class="contact-form__feather">
             <span class="icon-feather"></span>
         </div>
-        <div class="contact-form__container cells">
+        <div class="contact-form__wrapper cells">
             <div class="contact-form__cell cell">
                 <h2 class="contact-form__title">Покупайте шубу из соболя только после знакомства с натуральной
                     продукцией от

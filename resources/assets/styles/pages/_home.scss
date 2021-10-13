@@ -1,29 +1,57 @@
 .home {
   &-banner {
     margin-bottom: 160px;
+
+    @media (max-width: 767px) {
+      margin-bottom: 40px;
+    }
   }
 
   &-unique {
     margin-bottom: 182px;
+
+    @media (max-width: 767px) {
+      margin-bottom: 40px;
+    }
   }
 
   &-sets {
     margin-bottom: 277px;
+
+    @media (max-width: 767px) {
+      margin-bottom: 80px;
+    }
   }
 
   &-offer {
     margin-bottom: 190px;
+
+    @media (max-width: 767px) {
+      margin-bottom: 80px;
+    }
   }
 
   &-jewel {
     margin-bottom: 192px;
+
+    @media (max-width: 767px) {
+      margin-bottom: 80px;
+    }
   }
 
   &-quality {
     margin-bottom: 140px;
+
+    @media (max-width: 767px) {
+      margin-bottom: 80px;
+    }
   }
 
   &-contact-form {
     margin-bottom: 73px;
+
+    @media (max-width: 767px) {
+      margin-bottom: 40px;
+    }
   }
 }

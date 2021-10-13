@@ -1,12 +1,41 @@
 .unique {
+  @media (max-width: 767px) {
+    text-align: center;
+  }
+
   &__title {
     margin-top: 213px;
     margin-bottom: 40px;
     max-width: 580px;
+
+    @media (max-width: 1000px) {
+      max-width: 580px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+    @media (max-width: 767px) {
+      margin-bottom: 20px;
+      margin-top: 20px;
+    }
   }
 
   &__text {
     max-width: 428px;
+
+    @media (max-width: 1000px) {
+      max-width: 580px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+  }
+
+  &__cell {
+    @media (max-width: 1000px) {
+      max-width: 580px;
+      margin-right: auto;
+      margin-left: auto;
+    }
   }
 
   &__image {
@@ -15,6 +44,18 @@
     &--second {
       margin-top: 170px;
       max-width: 360px;
+
+      @media (max-width: 1000px) {
+        max-width: 580px;
+      }
+
+      @media (max-width: 767px) {
+        margin-top: 20px;
+      }
+    }
+
+    @media (max-width: 1000px) {
+      width: 100%;
     }
   }
 }

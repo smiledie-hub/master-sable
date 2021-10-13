@@ -5,11 +5,29 @@
 
   &__header {
     margin-bottom: 55px;
+
+    @media (max-width: 1000px) {
+      max-width: 580px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+    @media (max-width: 767px) {
+      margin-bottom: 20px;
+    }
+  }
+
+  &__main {
+    @media (max-width: 1000px) {
+      max-width: 580px;
+      margin-right: auto;
+      margin-left: auto;
+    }
   }
 
   &__title {
     letter-spacing: 0.03em;
-    line-height: 54px;
+    line-height: 130%;
   }
 
   &__container-text {

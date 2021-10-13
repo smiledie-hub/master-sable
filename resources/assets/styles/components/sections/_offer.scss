@@ -1,13 +1,62 @@
 @import "../../common/variables";
 
 .offer {
+  &__slider {
+    position: relative;
+    width: 427px;
+    height: 427px;
+
+    @media (max-width: 1000px) {
+      width: 100%;
+      max-width: 580px;
+      height: auto;
+    }
+
+    @media (max-width: 767px) {
+      width: 100%;
+      padding: 0 50px;
+    }
+  }
+
+  &__next {
+    @media (max-width: 1560px) {
+      right: -50px;
+    }
+
+    @media (max-width: 767px) {
+      right: 0;
+    }
+  }
+
+  &__prev {
+    @media (max-width: 1560px) {
+      left: -50px;
+    }
+
+    @media (max-width: 767px) {
+      left: 0;
+    }
+  }
+
   &__title {
     margin-bottom: 40px;
     max-width: 610px;
+
+    @media (max-width: 1000px) {
+      max-width: 580px;
+      margin-left: auto;
+      margin-right: auto;
+    }
   }
 
   &__text {
     max-width: 480px;
+
+    @media (max-width: 1000px) {
+      max-width: 580px;
+      margin-left: auto;
+      margin-right: auto;
+    }
 
     &:not(:last-child) {
       margin-bottom: 40px;
@@ -21,6 +70,11 @@
 
 .links {
   max-width: 580px;
+
+  @media (max-width: 1000px) {
+    margin-left: auto;
+    margin-right: auto;
+  }
 
   &__title {
     font-family: Playfair Display, sans-serif;
@@ -38,10 +92,22 @@
     flex-wrap: wrap;
     grid-gap: 25px 100px;
     max-width: 520px;
+
+    @media (max-width: 1000px) {
+      max-width: 580px;
+    }
+
+    @media (max-width: 767px) {
+      flex-direction: column;
+    }
   }
 
   &__item {
     width: calc(50% - 50px);
+
+    @media (max-width: 767px) {
+      width: 100%;
+    }
 
     .link {
       display: flex;
@@ -62,6 +128,15 @@
 }
 
 .card-image {
+  @media (max-width: 1000px) {
+    margin: 0 auto;
+    max-width: 580px;
+  }
+
+  @media (max-width: 767px) {
+    text-align: center;
+  }
+
   &--screen {
     display: flex;
     align-items: center;
@@ -69,10 +144,39 @@
     margin-left: -5vw;
     margin-top: 180px;
 
+    @media (max-width: 1000px) {
+      margin-top: 30px;
+    }
+
+    @media (max-width: 1440px) {
+      display: block;
+    }
+
+    @media (max-width: 1200px) {
+      margin-left: 0;
+    }
+
+    @media (max-width: 1000px) {
+      margin-left: auto;
+    }
+
     /* stylelint-disable no-descending-specificity */
     .card-image__header {
       margin-bottom: 0;
       margin-right: 100px;
+
+      @media (max-width: 1440px) {
+        margin-bottom: 20px;
+        margin-right: 0;
+      }
+    }
+  }
+
+  &__cover {
+    @media (max-width: 1000px) {
+      width: 100%;
+      max-height: 500px;
+      object-fit: cover;
     }
   }
 
