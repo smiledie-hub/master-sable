@@ -23,6 +23,12 @@
       margin-right: auto;
       margin-left: auto;
     }
+
+    .link {
+      &:not(:first-child) {
+        margin-top: 50px;
+      }
+    }
   }
 
   &__title {

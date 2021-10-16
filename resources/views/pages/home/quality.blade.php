@@ -3,23 +3,19 @@
         <div class="quality__header">
             <picture class="quality__cover">
                 <img loading="lazy"
-                     src="<?=get_template_directory_uri()?>/assets/images/quality/cover.jpg" alt="cover">
+                     src="{{ $image }}" alt="cover">
             </picture>
         </div>
         <div class="quality__main">
             <div class="quality__cells cells">
                 <div class="quality__cell cell">
                     <div class="quality__container-title">
-                        <h2 class="quality__title">Будьте уверены в качестве приобретаемого продукта</h2>
+                        <h2 class="quality__title">{{ $title }}</h2>
                     </div>
                 </div>
                 <div class="quality__cell cell">
                     <div class="quality__container-text">
-                        <p>В процессе приобретения бриллиантов и золота, покупателю важно удостовериться в чистоте изделия.
-                            Бренды Cartier, Chopard или Van Cleef & Arpels дают людям ощущение спокойствия и вызывают полное
-                            доверие за счет своей многолетней истории.</p>
-                        <p>Master Sobol претендует на подобную позицию в мире меха. При покупке соболя, рыси, куницы, наш
-                            покупатель получает расширенную гарантию, подтверждающую качество материала.</p>
+                        {!! $text !!}
                     </div>
                 </div>
             </div>

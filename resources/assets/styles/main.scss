@@ -3,14 +3,6 @@
 @import "~swiper/swiper-vars";
 @import "~swiper/swiper";
 
-/**
- * Import npm dependencies
- *
- * Prefix your imports with `~` to grab from node_modules/
- * @see https://github.com/webpack-contrib/sass-loader#imports
- */
-// @import "~some-node-module";
-
 /** Import theme styles */
 @import "common/reset";
 @import "common/global";
@@ -36,17 +28,33 @@
 @import "components/cult";
 @import "components/socials";
 @import "components/mailing";
-@import "components/sections/contact-form";
-@import "components/sections/quality";
-@import "components/sections/jewel";
-@import "components/sections/banner";
-@import "components/sections/sets";
-@import "components/sections/unique";
-@import "components/sections/offer";
 @import "components/box-icon";
-@import "components/sections/advantages";
 
-/** Pages */
-@import "pages/home";
-@import "pages/contact";
-@import "pages/our-partners";
+/** HOME */
+@import "pages/home/main";
+@import "pages/home/contact-form";
+@import "pages/home/banner";
+@import "pages/home/jewel";
+@import "pages/home/offer";
+@import "pages/home/quality";
+@import "pages/home/sets";
+@import "pages/home/unique";
+
+/** CONTACTS */
+@import "pages/contacts/main";
+
+/** OUR PARTNER */
+@import "pages/our-partners/main";
+@import "pages/our-partners/advantages";
+
+/** OUR PRODUCTIONS */
+@import "pages/our-production/main";
+@import "pages/our-production/banner";
+@import "pages/our-production/best-product";
+@import "pages/our-production/block-image";
+@import "pages/our-production/certificates";
+@import "pages/our-production/classification";
+@import "pages/our-production/geography";
+@import "pages/our-production/guarantee";
+@import "pages/our-production/palette";
+@import "pages/our-production/reviews";
