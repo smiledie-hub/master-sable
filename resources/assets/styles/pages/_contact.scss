@@ -1,0 +1,68 @@
+.contact {
+  padding-top: 140px;
+
+  @media (max-width: 767px) {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  &__phone {
+    font-style: normal;
+    font-weight: 500;
+    line-height: 121%;
+    display: block;
+    font-size: 48px;
+    margin-bottom: 75px;
+
+    @media (max-width: 767px) {
+      font-size: 21px;
+      margin-bottom: 21px;
+    }
+  }
+
+  &__address {
+    font-style: normal;
+    font-weight: normal;
+    line-height: 121%;
+    font-size: 48px;
+    margin-bottom: 57px;
+
+    @media (max-width: 767px) {
+      font-size: 21px;
+      margin-bottom: 21px;
+    }
+  }
+
+  &__email {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 32px;
+    text-decoration-line: underline;
+    margin-bottom: 170px;
+    display: block;
+
+    @media (max-width: 767px) {
+      font-size: 18px;
+      margin-bottom: 70px;
+    }
+  }
+
+  &__cells {
+    justify-content: space-between;
+  }
+
+  &__cell {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &:first-child {
+      max-width: 762px;
+    }
+
+    &:last-child {
+      max-width: 400px;
+    }
+  }
+}

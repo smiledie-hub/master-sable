@@ -6,13 +6,13 @@ export default {
     init() {
         new Swiper('.sets-items', {
             navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
+                nextEl: '.sets__next',
+                prevEl: '.sets__prev',
             },
             spaceBetween: 30,
             slidesPerView: 4,
             breakpoints: {
-                320 : {
+                320: {
                     slidesPerView: 1,
                 },
                 640: {
@@ -24,18 +24,10 @@ export default {
             },
         });
 
-        new Swiper('.image-slider', {
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
-            slidesPerView: 1,
-        });
-
         new Swiper('.banner', {
             navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
+                nextEl: '.banner__next',
+                prevEl: '.banner__prev',
             },
             pagination: {
                 el: '.swiper-pagination',
@@ -46,7 +38,4 @@ export default {
             slidesPerView: 1,
         });
     },
-    finalize() {
-        //
-    },
-};
+}

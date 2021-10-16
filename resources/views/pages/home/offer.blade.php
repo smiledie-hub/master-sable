@@ -2,26 +2,31 @@
     <div class="container">
         <div class="cells">
             <div class="cell">
-                <h2 class="offer__title">Предложение для профессионалов</h2>
-                <p class="offer__text">Помимо оптовой и розничной продажи меховых наборов, мы предлагаем комплексные поставки, включающие в себя все
-                    необходимые материалы для изготовления продукции высокого качества, а также предоставляем возможность
-                    изготовления изделий по эскизам. </p>
+                <h2 class="offer__title">{{ $title }}</h2>
+                <p class="offer__text">{{ $text }}</p>
 
-                <div class="offer__links links">
-                    <p class="links__title">партнерские условия для:</p>
-                    <ul class="links__list">
-                        <li class="links__item"><a href="#" class="link link--default">Дизайнеров <span class="link__icon icon-long-arrow"></span></a></li>
-                        <li class="links__item"><a href="#" class="link link--default">Производств <span class="link__icon icon-long-arrow"></span></a></li>
-                        <li class="links__item"><a href="#" class="link link--default">Ателье <span class="link__icon icon-long-arrow"></span></a></li>
-                        <li class="links__item"><a href="#" class="link link--default">Магазинов <span class="link__icon icon-long-arrow"></span></a></li>
-                    </ul>
-                </div>
+                @if($partner)
+                    <div class="offer__links links">
+                        <p class="links__title">партнерские условия для:</p>
+                        <ul class="links__list">
+                            <li class="links__item"><a href="#" class="link link--default">Дизайнеров <span
+                                            class="link__icon icon-long-arrow"></span></a></li>
+                            <li class="links__item"><a href="#" class="link link--default">Производств <span
+                                            class="link__icon icon-long-arrow"></span></a></li>
+                            <li class="links__item"><a href="#" class="link link--default">Ателье <span
+                                            class="link__icon icon-long-arrow"></span></a></li>
+                            <li class="links__item"><a href="#" class="link link--default">Магазинов <span
+                                            class="link__icon icon-long-arrow"></span></a></li>
+                        </ul>
+                    </div>
+                @endif
 
                 <div class="card-image">
                     <div class="card-image__header">
                         <picture>
                             <img class="card-image__cover"
-                                 src="/wp-content/themes/master-sable/resources/assets/images/offer/img1.jpg" alt="cover">
+                                 loading="lazy"
+                                 src="<?=get_template_directory_uri()?>/assets/images/offer/img1.jpg" alt="cover">
                         </picture>
                     </div>
                     <div class="card-image__main">
@@ -35,7 +40,8 @@
                     <div class="card-image__header">
                         <picture>
                             <img class="card-image__cover"
-                                 src="/wp-content/themes/master-sable/resources/assets/images/offer/img2.jpg" alt="cover">
+                                 loading="lazy"
+                                 src="<?=get_template_directory_uri()?>/assets/images/offer/img2.jpg" alt="cover">
                         </picture>
                     </div>
                     <div class="card-image__main">
@@ -51,19 +57,9 @@
                                     <div class="image-slider__item swiper-slide">
                                         <picture>
                                             <img class="card-image__cover"
-                                                 src="/wp-content/themes/master-sable/resources/assets/images/offer/img3.jpg" alt="cover">
-                                        </picture>
-                                    </div>
-                                    <div class="image-slider__item swiper-slide">
-                                        <picture>
-                                            <img class="card-image__cover"
-                                                 src="/wp-content/themes/master-sable/resources/assets/images/offer/img3.jpg" alt="cover">
-                                        </picture>
-                                    </div>
-                                    <div class="image-slider__item swiper-slide">
-                                        <picture>
-                                            <img class="card-image__cover"
-                                                 src="/wp-content/themes/master-sable/resources/assets/images/offer/img3.jpg" alt="cover">
+                                                 loading="lazy"
+                                                 src="<?=get_template_directory_uri()?>/assets/images/offer/img3.jpg"
+                                                 alt="cover">
                                         </picture>
                                     </div>
                                 </div>

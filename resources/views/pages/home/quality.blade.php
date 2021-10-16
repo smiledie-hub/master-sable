@@ -2,7 +2,8 @@
     <div class="container">
         <div class="quality__header">
             <picture class="quality__cover">
-                <img src="/wp-content/themes/master-sable/resources/assets/images/quality/cover.jpg" alt="cover">
+                <img loading="lazy"
+                     src="<?=get_template_directory_uri()?>/assets/images/quality/cover.jpg" alt="cover">
             </picture>
         </div>
         <div class="quality__main">

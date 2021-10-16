@@ -51,6 +51,7 @@
 
   &__text {
     max-width: 480px;
+    min-height: 150px;
 
     @media (max-width: 1000px) {
       max-width: 580px;

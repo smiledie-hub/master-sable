@@ -27,13 +27,12 @@
 @import "layouts/tinymce";
 @import "layouts/typography";
 @import "layouts/container";
-
-/** Pages */
-@import "pages/home";
+@import "layouts/sections";
 
 /** Components */
 @import "components/swiper";
 @import "components/logotype";
+@import "components/submit-application";
 @import "components/cult";
 @import "components/socials";
 @import "components/mailing";
@@ -44,3 +43,10 @@
 @import "components/sections/sets";
 @import "components/sections/unique";
 @import "components/sections/offer";
+@import "components/box-icon";
+@import "components/sections/advantages";
+
+/** Pages */
+@import "pages/home";
+@import "pages/contact";
+@import "pages/our-partners";

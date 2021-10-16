@@ -1,0 +1,52 @@
+@import "../common/variables";
+
+.box-icon {
+  color: $color-main;
+  display: flex;
+
+  @media (max-width: 1000px) {
+    &:not(:last-child) {
+      margin-bottom: 40px;
+    }
+  }
+
+  &__icon {
+    font-size: 24px;
+    margin-right: 22px;
+
+    @media (max-width: 767px) {
+      font-size: 1.4em;
+      margin-right: 1em;
+      margin-top: 0.05em;
+    }
+  }
+
+  &__title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 139%;
+    letter-spacing: 0.01em;
+
+    &:not(:last-child) {
+      margin-bottom: 0;
+    }
+
+    @media (max-width: 767px) {
+      font-size: 16px;
+    }
+  }
+
+  &__text {
+    font-size: 16px;
+    line-height: 150%;
+
+    &:not(:last-child) {
+      margin-bottom: 0;
+    }
+
+    @media (max-width: 767px) {
+      font-size: 14px;
+    }
+  }
+}

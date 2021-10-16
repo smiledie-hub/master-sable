@@ -3,8 +3,8 @@
         <div class="cells">
             <div class="unique__cell cell">
                 <picture>
-                    <img class="unique__image"
-                         src="/wp-content/themes/master-sable/resources/assets/images/unique/img1.jpg" alt="cover">
+                    <img class="unique__image" loading="lazy"
+                         src="<?=get_template_directory_uri()?>/assets/images/unique/img1.jpg" alt="cover">
                 </picture>
             </div>
             <div class="unique__cell cell">
@@ -12,8 +12,8 @@
                 <p class="unique__text">Наш соболь – редкий отборный продукт, который сложно найти в магазине. Его премиальное качество – это работа большого количества профессионалов. </p>
 
                 <picture>
-                    <img class="unique__image unique__image--second"
-                         src="/wp-content/themes/master-sable/resources/assets/images/unique/img2.jpg" alt="cover">
+                    <img class="unique__image unique__image--second" loading="lazy"
+                         src="<?=get_template_directory_uri()?>/assets/images/unique/img2.jpg" alt="cover">
                 </picture>
             </div>
         </div>
