@@ -1,0 +1,51 @@
+.guarantee {
+  &__title {
+    line-height: 121%;
+    letter-spacing: 0.03em;
+    max-width: 610px;
+    margin-bottom: 40px;
+  }
+
+  &__text {
+    max-width: 480px;
+  }
+
+  &__cell {
+    &:last-child {
+      margin-top: 310px;
+
+      @media (max-width: 1000px) {
+        margin-top: 20px;
+      }
+    }
+
+    @media (max-width: 1000px) {
+      max-width: 580px;
+      margin: 0 auto;
+    }
+  }
+}
+
+.list-item {
+  max-width: 580px;
+
+  &__title {
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 1.1em;
+    letter-spacing: 0.02em;
+    margin-bottom: 25px;
+
+    @media (max-width: 767px) {
+      font-size: 18px;
+    }
+  }
+
+  &:not(:last-child) {
+    margin-bottom: 55px;
+
+    @media (max-width: 767px) {
+      margin-bottom: 30px;
+    }
+  }
+}

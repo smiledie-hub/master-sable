@@ -6,6 +6,12 @@
     padding-bottom: 40px;
   }
 
+  &__container {
+    @media (max-width: 1000px) {
+      max-width: 560px;
+    }
+  }
+
   &__phone {
     font-style: normal;
     font-weight: 500;

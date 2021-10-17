@@ -3,4 +3,9 @@
   bottom: 60px;
   right: 60px;
   z-index: 20;
+
+  @media (max-width: 767px) {
+    bottom: 20px;
+    right: 20px;
+  }
 }

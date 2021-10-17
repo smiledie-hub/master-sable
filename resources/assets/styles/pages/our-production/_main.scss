@@ -1,41 +1,81 @@
 .singlepage-our-production {
   &__banner {
     margin-bottom: 185px;
+
+    @media (max-width: 767px) {
+      margin-bottom: 40px;
+    }
   }
 
   &__classification {
     margin-bottom: 215px;
+
+    @media (max-width: 767px) {
+      margin-bottom: 40px;
+    }
   }
 
   &__palette {
     margin-bottom: 265px;
+
+    @media (max-width: 767px) {
+      margin-bottom: 40px;
+    }
   }
 
   &__offer {
     margin-bottom: 165px;
+
+    @media (max-width: 767px) {
+      margin-bottom: 40px;
+    }
   }
 
   &__geography {
     margin-bottom: 210px;
+
+    @media (max-width: 767px) {
+      margin-bottom: 40px;
+    }
   }
 
-  &__card-image {
+  &__block-image {
     margin-bottom: 150px;
+
+    @media (max-width: 767px) {
+      margin-bottom: 40px;
+    }
   }
 
-  &__quality {
+  &__guarantee {
     margin-bottom: 200px;
+
+    @media (max-width: 767px) {
+      margin-bottom: 40px;
+    }
   }
 
   &__certificates {
     margin-bottom: 188px;
+
+    @media (max-width: 767px) {
+      margin-bottom: 40px;
+    }
   }
 
   &__reviews {
     margin-bottom: 150px;
+
+    @media (max-width: 767px) {
+      margin-bottom: 40px;
+    }
   }
 
   &__best-product {
     margin-bottom: 250px;
+
+    @media (max-width: 767px) {
+      margin-bottom: 40px;
+    }
   }
 }

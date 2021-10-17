@@ -1,3 +1,44 @@
 .block-image {
-  //
+  color: #fff;
+  position: relative;
+
+  @media (max-width: 1000px) {
+    max-width: 580px;
+    margin: 0 auto;
+  }
+
+  &__image {
+    width: 100%;
+    height: auto;
+  }
+
+  &__content {
+    position: absolute;
+    bottom: 77px;
+    right: 60px;
+    max-width: 733px;
+
+    @media (max-width: 1000px) {
+      max-width: 400px;
+      bottom: 20px;
+      right: 20px;
+    }
+
+    @media (max-width: 767px) {
+      max-width: 300px;
+    }
+  }
+
+  &__title {
+    line-height: 121%;
+    letter-spacing: 0.03em;
+
+    @media (max-width: 1000px) {
+      font-size: 21px;
+    }
+
+    @media (max-width: 767px) {
+      font-size: 16px;
+    }
+  }
 }

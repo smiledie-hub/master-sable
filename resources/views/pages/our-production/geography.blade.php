@@ -10,7 +10,7 @@
                         class="link__icon icon-long-arrow"></span></a>
         </div>
         <div class="geography__map">
-            <img loading="lazy" src="<?=get_template_directory_uri()?>/assets/images/our-production/map.svg" alt="">
+            <img loading="lazy" src="{{ get_template_directory_uri().'/assets/images/our-production/map.svg' }}" alt="">
         </div>
     </div>
 </section>

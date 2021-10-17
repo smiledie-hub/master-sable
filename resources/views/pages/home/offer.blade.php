@@ -26,7 +26,7 @@
                         <picture>
                             <img class="card-image__cover"
                                  loading="lazy"
-                                 src="<?=get_template_directory_uri()?>/assets/images/offer/img1.jpg" alt="cover">
+                                 src="{{ get_template_directory_uri().'/assets/images/offer/img1.jpg' }}" alt="cover">
                         </picture>
                     </div>
                     <div class="card-image__main">
@@ -41,7 +41,7 @@
                         <picture>
                             <img class="card-image__cover"
                                  loading="lazy"
-                                 src="<?=get_template_directory_uri()?>/assets/images/offer/img2.jpg" alt="cover">
+                                 src="{{ get_template_directory_uri().'/assets/images/offer/img2.jpg' }}" alt="cover">
                         </picture>
                     </div>
                     <div class="card-image__main">
@@ -58,7 +58,15 @@
                                         <picture>
                                             <img class="card-image__cover"
                                                  loading="lazy"
-                                                 src="<?=get_template_directory_uri()?>/assets/images/offer/img3.jpg"
+                                                 src="{{ get_template_directory_uri().'/assets/images/offer/img3.jpg' }}"
+                                                 alt="cover">
+                                        </picture>
+                                    </div>
+                                    <div class="image-slider__item swiper-slide">
+                                        <picture>
+                                            <img class="card-image__cover"
+                                                 loading="lazy"
+                                                 src="{{ get_template_directory_uri().'/assets/images/offer/img3.jpg' }}"
                                                  alt="cover">
                                         </picture>
                                     </div>

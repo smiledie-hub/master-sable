@@ -3,11 +3,11 @@
         <div class="footer__wrapper">
             <div class="footer__start">
                 <div class="logotype">
-                    <a href="<?=home_url();?>" class="link link--default"><span class="icon-logotype"></span></a>
+                    <a href="{{ home_url() }}" class="link link--default"><span class="icon-logotype"></span></a>
                 </div>
                 <div>
                     <p class="footer__text">© Copyright 2020 Master Sobol</p>
-                    <a class="footer__privacy link" href="<?=get_privacy_policy_url();?>" target="_blank">Политика
+                    <a class="footer__privacy link" href="{{ get_privacy_policy_url() }}" target="_blank">Политика
                         конфиденциальности</a>
                     <div class="footer__cult cult">
                         <a href="#" class="link-default"><span class="cult__icon icon-cult"></span></a>

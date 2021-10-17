@@ -1,8 +1,9 @@
 <section class="best-product">
     <div class="container">
 
-        <img class="best-product__image" loading="lazy" src="<?=get_template_directory_uri()?>/assets/images/our-production/img2.jpg" alt="">
-        
+        <img class="best-product__image" loading="lazy"
+             src="{{ get_template_directory_uri().'/assets/images/our-production/img2.jpg'  }}" alt="">
+
         <div class="cells">
             <div class="cell">
                 <h2 class="reviews__title">Мы не только говорим, что предлагаем лучший товар, но и доказываем это на

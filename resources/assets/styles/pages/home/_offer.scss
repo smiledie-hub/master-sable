@@ -62,6 +62,10 @@
     &:not(:last-child) {
       margin-bottom: 40px;
     }
+
+    @media (max-width: 767px) {
+      min-height: auto;
+    }
   }
 
   &__links {

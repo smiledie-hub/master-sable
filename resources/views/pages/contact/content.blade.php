@@ -1,5 +1,5 @@
 <div class="contact">
-    <div class="container">
+    <div class="contact__container container">
         <div class="contact__cells cells">
             <div class="contact__cell cell">
                 <div>

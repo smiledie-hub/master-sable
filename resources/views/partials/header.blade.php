@@ -1,1 +1,1 @@
-<a href="#" class="submit-application btn btn-gray">Оставить заявку</a>
+<a href="/contacts" class="submit-application btn btn-gray">Оставить заявку</a>

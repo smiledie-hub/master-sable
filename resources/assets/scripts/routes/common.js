@@ -1,7 +1,9 @@
 import Swiper from 'swiper/swiper-bundle.min'
+import accordion from '../accordion';
 
 export default {
     init() {
+        accordion()
         new Swiper('.image-slider', {
             navigation: {
                 nextEl: '.offer__next',
@@ -11,6 +13,6 @@ export default {
         });
     },
     finalize() {
-        // JavaScript to be fired on all pages, after page specific JS is fired
+
     },
 }
