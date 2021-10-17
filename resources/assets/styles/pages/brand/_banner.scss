@@ -1,0 +1,32 @@
+.brand-banner {
+  min-height: 600px;
+  position: relative;
+
+  &__link {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 42px;
+    flex-direction: column;
+  }
+
+  &__icon {
+    border: 4px solid #fff;
+    border-radius: 50%;
+    padding: 24px 19px 24px 33px;
+  }
+
+  &__text {
+    margin-top: 48px;
+  }
+
+  &__cover {
+    z-index: 1;
+  }
+}

@@ -1,0 +1,33 @@
+.singlepage-brand {
+  &__banner {
+    margin-bottom: 50px;
+
+    @media (max-width: 767px) {
+      margin-bottom: 40px;
+    }
+  }
+
+  &__mission {
+    margin-bottom: 185px;
+
+    @media (max-width: 767px) {
+      margin-bottom: 40px;
+    }
+  }
+
+  &__command {
+    margin-bottom: 140px;
+
+    @media (max-width: 767px) {
+      margin-bottom: 80px;
+    }
+  }
+
+  &__declare {
+    margin-bottom: 100px;
+
+    @media (max-width: 767px) {
+      margin-bottom: 40px;
+    }
+  }
+}
