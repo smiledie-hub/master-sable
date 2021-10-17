@@ -3,7 +3,7 @@
     @while(have_posts()) @php the_post() @endphp
 
     <div class="singlepage-product">
-        <div class=singlepage-product__sets">
+        <div class="singlepage-product__sets">
             @include('pages/home/sets', ['title' => 'Наборы с похожими характеристиками', 'items' => [
                 [
                  'title' => 'СОБОЛЬ КРЯЖ',

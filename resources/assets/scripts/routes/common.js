@@ -11,6 +11,25 @@ export default {
             },
             slidesPerView: 1,
         });
+        new Swiper('.sets-items', {
+            navigation: {
+                nextEl: '.sets__next',
+                prevEl: '.sets__prev',
+            },
+            spaceBetween: 30,
+            slidesPerView: 4,
+            breakpoints: {
+                320: {
+                    slidesPerView: 1,
+                },
+                640: {
+                    slidesPerView: 2,
+                },
+                1000: {
+                    slidesPerView: 4,
+                },
+            },
+        });
     },
     finalize() {
 

@@ -1,0 +1,9 @@
+.singlepage-product {
+  &__sets {
+    margin-bottom: 150px;
+
+    @media (max-width: 767px) {
+      margin-bottom: 80px;
+    }
+  }
+}
