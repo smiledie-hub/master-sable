@@ -1,6 +1,7 @@
 .sets {
   &__title {
     margin-bottom: 80px;
+    max-width: 618px;
 
     @media (max-width: 1000px) {
       max-width: 580px;

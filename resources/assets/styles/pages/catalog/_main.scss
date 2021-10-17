@@ -1,0 +1,17 @@
+.singlepage-catalog {
+  &__offer {
+    margin-bottom: 190px;
+
+    @media (max-width: 767px) {
+      margin-bottom: 80px;
+    }
+  }
+
+  &__contact-form {
+    margin-bottom: 73px;
+
+    @media (max-width: 767px) {
+      margin-bottom: 40px;
+    }
+  }
+}

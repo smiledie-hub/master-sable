@@ -34,20 +34,20 @@
                         <p class="footer__title">ШУБНЫЕ НАБОРЫ</p>
 
                         <nav class="footer__nav">
-                            <a href="#">Соболь</a>
-                            <a href="#">Куница</a>
-                            <a href="#">Рысь</a>
-                            <a href="#">Другие меха</a>
+                            <a href="/catalog">Соболь</a>
+                            <a href="/catalog">Куница</a>
+                            <a href="/catalog">Рысь</a>
+                            <a href="/catalog">Другие меха</a>
                         </nav>
                     </div>
                     <div class="footer__section-item">
                         <p class="footer__title">ТКАНИ</p>
 
                         <nav class="footer__nav">
-                            <a href="#">Кашемир</a>
-                            <a href="#">Шерсть</a>
-                            <a href="#">Шелк</a>
-                            <a href="#">Батист</a>
+                            <a href="/catalog">Кашемир</a>
+                            <a href="/catalog">Шерсть</a>
+                            <a href="/catalog">Шелк</a>
+                            <a href="/catalog">Батист</a>
                         </nav>
                     </div>
                 </div>
@@ -56,28 +56,28 @@
                         <p class="footer__title">ПАРТНЕРАМ</p>
 
                         <nav class="footer__nav">
-                            <a href="#">Дизайнеры</a>
-                            <a href="#">Ателье</a>
-                            <a href="#">Производства</a>
-                            <a href="#">Магазины</a>
+                            <a href="/catalog">Дизайнеры</a>
+                            <a href="/catalog">Ателье</a>
+                            <a href="/catalog">Производства</a>
+                            <a href="/catalog">Магазины</a>
                         </nav>
                     </div>
                     <div class="footer__section-item">
                         <p class="footer__title">КОЖА</p>
 
                         <nav class="footer__nav">
-                            <a href="#">Кожа и замша</a>
-                            <a href="#">Экзотическая кожа</a>
+                            <a href="/catalog">Кожа и замша</a>
+                            <a href="/catalog">Экзотическая кожа</a>
                         </nav>
                     </div>
                     <div class="footer__section-item">
                         <p class="footer__title">ДРУГОЕ</p>
 
                         <nav class="footer__nav">
-                            <a href="#">Фурнитура</a>
-                            <a href="#">Подарки и аксесcуары</a>
-                            <a href="#">Интерьер</a>
-                            <a href="#">Гравировка по нерпе</a>
+                            <a href="/catalog">Фурнитура</a>
+                            <a href="/catalog">Подарки и аксесcуары</a>
+                            <a href="/catalog">Интерьер</a>
+                            <a href="/catalog">Гравировка по нерпе</a>
                         </nav>
                     </div>
                 </div>

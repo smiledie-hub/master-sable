@@ -1,5 +1,5 @@
-.home {
-  &-banner {
+.singlepage-home {
+  &__banner {
     margin-bottom: 160px;
 
     @media (max-width: 767px) {
@@ -7,7 +7,7 @@
     }
   }
 
-  &-unique {
+  &__unique {
     margin-bottom: 182px;
 
     @media (max-width: 767px) {
@@ -15,7 +15,7 @@
     }
   }
 
-  &-sets {
+  &__sets {
     margin-bottom: 277px;
 
     @media (max-width: 767px) {
@@ -23,7 +23,7 @@
     }
   }
 
-  &-offer {
+  &__offer {
     margin-bottom: 190px;
 
     @media (max-width: 767px) {
@@ -31,7 +31,7 @@
     }
   }
 
-  &-jewel {
+  &__jewel {
     margin-bottom: 192px;
 
     @media (max-width: 767px) {
@@ -39,7 +39,7 @@
     }
   }
 
-  &-quality {
+  &__quality {
     margin-bottom: 140px;
 
     @media (max-width: 767px) {
@@ -47,7 +47,7 @@
     }
   }
 
-  &-contact-form {
+  &__contact-form {
     margin-bottom: 73px;
 
     @media (max-width: 767px) {
