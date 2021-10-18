@@ -55,6 +55,7 @@
 }
 
 .review {
+  height: initial;
   border-right: 1.5px solid #0C0C0C;
 
   @media (max-width: 1000px) {
@@ -97,14 +98,6 @@
         font-size: 14px;
         margin-bottom: 20px;
       }
-    }
-  }
-
-  &__text {
-    max-width: 480px;
-
-    @media (max-width: 767px) {
-      font-size: 14px;
     }
   }
 }

@@ -49,6 +49,14 @@
     grid-gap: 0 150px;
 
     @media (max-width: 1560px) {
+      grid-gap: 0 100px;
+    }
+
+    @media (max-width: 1460px) {
+      grid-gap: 0 50px;
+    }
+
+    @media (max-width: 1360px) {
       grid-template-columns: 1fr 1fr;
       grid-template-areas: "start navs" "end end";
       grid-gap: 100px;
@@ -100,14 +108,14 @@
   &__adressess {
     max-width: 305px;
 
-    @media (max-width: 1560px) {
+    @media (max-width: 1360px) {
       display: flex;
       max-width: 100%;
       grid-gap: 35px;
     }
 
     .mailing {
-      @media (max-width: 1560px) {
+      @media (max-width: 1360px) {
         max-width: 305px;
       }
     }
@@ -119,9 +127,9 @@
   }
 
   &__socials {
-    margin: 33px 0 37px;
+    margin: 33px 0 28px;
 
-    @media (max-width: 1560px) {
+    @media (max-width: 1360px) {
       margin: 10px 0 37px;
       display: flex;
       align-items: flex-start;
@@ -138,7 +146,7 @@
       margin-bottom: 35px;
     }
 
-    @media (max-width: 1560px) {
+    @media (max-width: 1360px) {
       &:not(:last-child) {
         margin-bottom: 0;
       }
@@ -166,6 +174,7 @@
     margin-bottom: 32px;
     text-decoration: none;
     opacity: 1;
+    line-height: 1em;
 
     & > span {
       margin-left: 1em;
@@ -192,6 +201,14 @@
       &:not(:last-child) {
         margin-bottom: 0.8em;
       }
+    }
+  }
+
+  &__logotype {
+    margin-bottom: 150px;
+
+    @media (max-width: 1200px) {
+      margin-bottom: 50px;
     }
   }
 }

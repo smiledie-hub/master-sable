@@ -28,6 +28,8 @@ h1 {
 
 h2 {
   font-size: 48px;
+  line-height: 121%;
+  letter-spacing: 0.03em;
 
   @media (max-width: 767px) {
     font-size: 21px;
@@ -45,10 +47,6 @@ p {
   font-size: 16px;
   line-height: 150%;
 
-  &:not(:last-child) {
-    margin-bottom: 0.8em;
-  }
-
   @media (max-width: 767px) {
     font-size: 14px;
   }
@@ -57,5 +55,19 @@ p {
     &:not(:last-child) {
       margin-bottom: 2em;
     }
+  }
+}
+
+.text {
+  &:not(:last-child) {
+    margin-bottom: 0.8em;
+  }
+
+  &--mw480 {
+    max-width: 480px;
+  }
+
+  &--w500 {
+    font-weight: 500;
   }
 }

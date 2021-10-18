@@ -2,7 +2,7 @@
     <div class="container container--full">
         <div class="footer__wrapper">
             <div class="footer__start">
-                <div class="logotype">
+                <div class="footer__logotype logotype">
                     <a href="{{ home_url() }}" class="link link--default"><span class="icon-logotype"></span></a>
                 </div>
                 <div>

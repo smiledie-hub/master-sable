@@ -11,6 +11,7 @@ export default {
             },
             spaceBetween: 80,
             slidesPerView: 1,
+            autoHeight: true,
         });
 
         new Swiper('.reviews-slider__container', {

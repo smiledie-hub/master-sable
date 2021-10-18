@@ -1,0 +1,7 @@
+.our-partners-banner {
+  min-height: 600px;
+
+  @media (max-width: 767px) {
+    min-height: auto;
+  }
+}

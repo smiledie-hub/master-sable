@@ -30,7 +30,7 @@
         <div class="singlepage-our-production__reviews">
             @include('pages/our-production/reviews')
         </div>
-        <div class="singlepage-our-production__best-product">
+        <div class="singlepage-our-production__quality">
             @include('pages/home/quality', [
             'title' => 'Мы не только говорим, что предлагаем лучший товар, но и доказываем это на деле!',
             'image' => get_template_directory_uri().'/assets/images/our-production/img2.jpg',

@@ -17,15 +17,11 @@
   &__title {
     line-height: 121%;
     margin-bottom: 40px;
-    max-width: 609px;
+    max-width: 580px;
 
     @media (max-width: 767px) {
       margin-bottom: 20px;
     }
-  }
-
-  &__text {
-    max-width: 480px;
   }
 }
 
@@ -38,6 +34,7 @@
       opacity: 1;
       visibility: visible;
     }
+
     .accordion__icon {
       &:after {
         transform: translate(-50%, -50%) rotate(180deg);

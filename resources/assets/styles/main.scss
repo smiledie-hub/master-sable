@@ -43,10 +43,6 @@
 /** CONTACTS */
 @import "pages/contacts/main";
 
-/** OUR PARTNER */
-@import "pages/our-partners/main";
-@import "pages/our-partners/advantages";
-
 /** OUR PRODUCTIONS */
 @import "pages/our-production/main";
 @import "pages/our-production/banner";
@@ -64,6 +60,11 @@
 @import "pages/brand/mission";
 @import "pages/brand/command";
 @import "pages/brand/declare";
+
+/** OUR PARTNER */
+@import "pages/our-partners/main";
+@import "pages/our-partners/banner";
+@import "pages/our-partners/advantages";
 
 /** CATALOG */
 @import "pages/catalog/main";
