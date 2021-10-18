@@ -1,0 +1,146 @@
+.palette {
+  background-color: $color-main;
+  color: #fff;
+  padding: 175px 0;
+
+  @media (max-width: 767px) {
+    padding: 40px 0;
+  }
+
+  &__container {
+    @media (max-width: 1000px) {
+      max-width: 580px;
+    }
+  }
+
+  &__title {
+    margin-bottom: 90px;
+
+    @media (max-width: 767px) {
+      margin-bottom: 40px;
+    }
+  }
+
+  &__text {
+
+  }
+}
+
+.pallette-block {
+  margin-bottom: 70px;
+  position: relative;
+
+  @media (max-width: 767px) {
+    margin-bottom: 20px;
+  }
+
+  &__prev, &__next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    z-index: 2;
+  }
+
+  &__prev {
+    left: 25px;
+  }
+
+  &__next {
+    right: 25px;
+  }
+
+  &__colors {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1350px;
+    border-bottom: 1.5px solid #fff;
+    grid-gap: 20px 30px;
+    margin-bottom: 72px;
+
+    @media (max-width: 1460px) {
+      max-width: 100%;
+    }
+  }
+
+  &__caption {
+    width: 56%;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    letter-spacing: 0.02em;
+    margin-bottom: 20px;
+
+    @media (max-width: 1460px) {
+      width: 50%;
+    }
+
+    @media (max-width: 767px) {
+      width: 20%;
+      margin-bottom: 15px;
+    }
+
+    @media (max-width: 767px) {
+      font-size: 18px;
+    }
+  }
+
+  &__colors-list {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @media (max-width: 767px) {
+      width: 80%;
+    }
+  }
+
+  &__color {
+    user-select: none;
+    cursor: pointer;
+    color: #fff;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: 0.02em;
+    border: none;
+    height: 70px;
+    display: flex;
+    transition: opacity 300ms;
+
+    @media (max-width: 767px) {
+      font-size: 18px;
+      height: 40px;
+    }
+
+    &:hover {
+      opacity: 0.5;
+    }
+
+    &--select {
+      border-bottom: 6px solid #FFFFFF;
+    }
+  }
+
+  &__items {
+    display: none;
+
+    &--select {
+      display: block;
+    }
+  }
+
+}
+
+.pallette-slide {
+  display: flex;
+  flex-direction: column;
+
+  &__caption {
+    margin-bottom: 20px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+  }
+}
