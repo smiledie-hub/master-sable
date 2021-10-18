@@ -27,6 +27,10 @@
     font-size: 0.8em;
   }
 
+  &__number {
+    margin-left: 35px;
+  }
+
   &--main {
     background-color: $color-main;
     color: #fff;

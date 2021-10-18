@@ -3,7 +3,9 @@ import accordion from '../accordion';
 
 export default {
     init() {
-        accordion()
+        accordion(document.getElementsByClassName('accordion__header'))
+        accordion(document.getElementsByClassName('catalog-filter-select__header'), '.catalog-filter-select__content', 'catalog-filter__item--active', false)
+
         new Swiper('.image-slider', {
             navigation: {
                 nextEl: '.offer__next',

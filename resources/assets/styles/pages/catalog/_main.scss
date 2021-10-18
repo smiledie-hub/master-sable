@@ -1,4 +1,28 @@
 .singlepage-catalog {
+  &__caption {
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    opacity: 0.35;
+    text-align: right;
+    margin-bottom: 32px;
+
+    @media (max-width: 1000px) {
+      max-width: 580px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+  }
+
+  &__catalog {
+    margin-bottom: 200px;
+
+    @media (max-width: 767px) {
+      margin-bottom: 80px;
+    }
+  }
+
   &__offer {
     margin-bottom: 190px;
 

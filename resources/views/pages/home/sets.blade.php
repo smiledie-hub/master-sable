@@ -7,18 +7,18 @@
 
                 <div class="swiper-wrapper">
                     @foreach($items as $item)
-                        <div class="set swiper-slide">
-                            <a href="{{ $item['link'] }}" class="set__link"></a>
-                            <div class="set__cover">
+                        <article class="catalog-item swiper-slide">
+                            <a href="{{ $item['link'] }}" class="catalog-item__link"></a>
+                            <div class="catalog-item__cover">
                                 <picture>
-                                    <img class="set__image" loading="lazy"
+                                    <img class="catalog-item__image" loading="lazy"
                                          src="{{ $item['image'] }}" alt="cover">
                                 </picture>
                             </div>
-                            <h3 class="set__title">{{ $item['title'] }}</h3>
-                            <p class="set__text">{{ $item['text'] }}</p>
-                            <p class="set__price">{{ $item['price'] }}</p>
-                        </div>
+                            <h3 class="catalog-item__title">{{ $item['title'] }}</h3>
+                            <p class="catalog-item__text">{{ $item['text'] }}</p>
+                            <p class="catalog-item__price">{{ $item['price'] }}</p>
+                        </article>
                     @endforeach
                 </div>
             </div>
