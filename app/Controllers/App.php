@@ -11,6 +11,12 @@ class App extends Controller
         return get_bloginfo('name');
     }
 
+    public function routeName(): ?string
+    {
+        global $wp;
+        return add_query_arg(array(), $wp->request);
+    }
+
     public static function title()
     {
         if (is_home()) {

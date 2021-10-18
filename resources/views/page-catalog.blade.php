@@ -2,7 +2,7 @@
 @section('content')
     @while(have_posts()) @php the_post() @endphp
 
-    <div class="singlepage-catalog">
+    <div class="singlepage singlepage-catalog singlepage--top-padding">
         <div class="singlepage-catalog__headline">
             @include('pages.catalog.headline')
         </div>

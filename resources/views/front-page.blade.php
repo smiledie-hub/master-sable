@@ -2,7 +2,7 @@
 @section('content')
     @while(have_posts()) @php the_post() @endphp
 
-    <div class="singlepage-home">
+    <div class="singlepage singlepage-home">
         <div class="singlepage-home__banner">
             @include('pages/home/banner')
         </div>

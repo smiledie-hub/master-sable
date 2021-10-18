@@ -2,7 +2,7 @@
 @section('content')
     @while(have_posts()) @php the_post() @endphp
 
-    <div class="singlepage-product">
+    <div class="singlepage singlepage-product singlepage--top-padding">
         <div class="singlepage-product__content">
             @include('pages/product/content')
         </div>

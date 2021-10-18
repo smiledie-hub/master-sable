@@ -2,7 +2,7 @@
 @section('content')
     @while(have_posts()) @php the_post() @endphp
 
-    <div class="singlepage-contacts">
+    <div class="singlepage singlepage-contacts singlepage--top-padding">
         @include('pages/contacts/content')
     </div>
 
