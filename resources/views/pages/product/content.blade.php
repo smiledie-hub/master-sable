@@ -1,0 +1,165 @@
+<section class="product-card">
+    <div class="product-card__container container container--full">
+        <div class="product-card__cells cells">
+            <div class="product-card__cell cell">
+                <div class="product-card__images">
+                    <div class="product-card__cover">
+                        <img class="product-card__image" loading="lazy"
+                             src="{{ get_template_directory_uri().'/assets/images/product/img1.jpg' }}" alt="cover">
+                    </div>
+
+                    <div class="product-card__cover">
+                        <img class="product-card__image" loading="lazy"
+                             src="{{ get_template_directory_uri().'/assets/images/product/img2.png' }}" alt="cover">
+                    </div>
+
+                    <div class="product-card__cover">
+                        <img class="product-card__image" loading="lazy"
+                             src="{{ get_template_directory_uri().'/assets/images/product/img3.jpg' }}" alt="cover">
+                    </div>
+                </div>
+            </div>
+            <div class="product-card__cell cell">
+                <div class="product-card__wrapper">
+                    <div class="product-card__header">
+                        <h2 class="product-card__title">Соболь кряж</h2>
+                        <p class="product-card__code">Код товара: 4328</p>
+
+                        <p class="product-card__price">600 000 ₽ </p>
+                        <p class="product-card__price-opt">5 600 000 ₽ <span>оптовая цена</span></p>
+                    </div>
+
+                    <div class="product-card__specifications">
+                        <p class="product-card__caption">Характеристики</p>
+                        <div class="specifications">
+                            <div class="specification">
+                                <div class="specification__header">
+                                    <p class="specification__title">Качество: </p>
+                                </div>
+
+                                <div class="specification__footer">
+                                    <p class="specification__text">PURE</p>
+                                </div>
+                            </div>
+                            <div class="specification">
+                                <div class="specification__header">
+                                    <p class="specification__title">Цвет: </p>
+                                </div>
+
+                                <div class="specification__footer">
+                                    <p class="specification__text">Тёмный (Цвет 3, оттенок 1.1/2.1)</p>
+                                </div>
+                            </div>
+                            <div class="specification">
+                                <div class="specification__header">
+                                    <p class="specification__title">Седина: </p>
+                                </div>
+
+                                <div class="specification__footer">
+                                    <p class="specification__text">2</p>
+                                </div>
+                            </div>
+                            <div class="specification">
+                                <div class="specification__header">
+                                    <p class="specification__title">Количество шкурок: </p>
+                                </div>
+
+                                <div class="specification__footer">
+                                    <p class="specification__text">60</p>
+                                </div>
+                            </div>
+                            <div class="specification">
+                                <div class="specification__header">
+                                    <p class="specification__title">Размер: </p>
+                                </div>
+
+                                <div class="specification__footer">
+                                    <p class="specification__text">XXL (крупного 15, среднего 16,
+                                        мелкого 15)</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <p class="product-card__caption">Вариант изделия:</p>
+                        <div class="specifications">
+                            <div class="specification">
+                                <div class="specification__header">
+                                    <p class="specification__title">Изделие: </p>
+                                </div>
+
+                                <div class="specification__footer">
+                                    <p class="specification__text">Жилетка, полушубок, шуба</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card__order">
+                        <div>
+                            <a href="#" class="btn btn--main">Заказать <span
+                                        class="btn__icon icon-long-arrow"></span></a>
+                        </div>
+                        <div>
+                            <a href="#" class="product-card__link link link--default">Нужна помощь? Свяжитесь с нами</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card__slider ">
+                    <p class="may-need__title">Вам может понадобиться</p>
+
+                    <div class="may-need">
+                        <div class="may-need__slider swiper">
+                            <div class="swiper-wrapper">
+                                <div class="may-need__item swiper-slide">
+                                    <picture>
+                                        <img class="may-need__cover"
+                                             loading="lazy"
+                                             src="{{ get_template_directory_uri().'/assets/images/product/item1.jpg' }}"
+                                             alt="cover">
+                                    </picture>
+                                    <p class="may-need__caption">ПОДКЛАДОЧНАЯ ТКАНЬ</p>
+                                </div>
+                                <div class="may-need__item swiper-slide">
+                                    <picture>
+                                        <img class="may-need__cover"
+                                             loading="lazy"
+                                             src="{{ get_template_directory_uri().'/assets/images/product/item2.jpg' }}"
+                                             alt="cover">
+                                    </picture>
+                                    <p class="may-need__caption">ПОДКЛАДОЧНАЯ ТКАНЬ</p>
+                                </div>
+
+                                <div class="may-need__item swiper-slide">
+                                    <picture>
+                                        <img class="may-need__cover"
+                                             loading="lazy"
+                                             src="{{ get_template_directory_uri().'/assets/images/product/item1.jpg' }}"
+                                             alt="cover">
+                                    </picture>
+                                    <p class="may-need__caption">ПОДКЛАДОЧНАЯ ТКАНЬ</p>
+                                </div>
+                                <div class="may-need__item swiper-slide">
+                                    <picture>
+                                        <img class="may-need__cover"
+                                             loading="lazy"
+                                             src="{{ get_template_directory_uri().'/assets/images/product/item2.jpg' }}"
+                                             alt="cover">
+                                    </picture>
+                                    <p class="may-need__caption">ПОДКЛАДОЧНАЯ ТКАНЬ</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="may-need__prev swiper-button-prev">
+                            <span class="icon-arrow-left"></span>
+                        </div>
+                        <div class="may-need__next swiper-button-next">
+                            <span class="icon-arrow-right"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

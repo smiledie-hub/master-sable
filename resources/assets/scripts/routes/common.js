@@ -6,6 +6,23 @@ export default {
         accordion(document.getElementsByClassName('accordion__header'))
         accordion(document.getElementsByClassName('catalog-filter-select__header'), '.catalog-filter-select__content', 'catalog-filter__item--active', false)
 
+        new Swiper('.may-need__slider', {
+            navigation: {
+                nextEl: '.may-need__next',
+                prevEl: '.may-need__prev',
+            },
+            slidesPerView: 2,
+            spaceBetween: 30,
+            breakpoints: {
+                0: {
+                    slidesPerView: 1,
+                },
+                640: {
+                    slidesPerView: 2,
+                },
+            },
+        });
+
         new Swiper('.image-slider', {
             navigation: {
                 nextEl: '.offer__next',
@@ -13,6 +30,7 @@ export default {
             },
             slidesPerView: 1,
         });
+
         new Swiper('.sets-items', {
             navigation: {
                 nextEl: '.sets__next',
