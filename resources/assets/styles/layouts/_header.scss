@@ -149,11 +149,11 @@
       align-items: center;
       grid-gap: 50px;
 
-      @media (max-width: 1245px) {
+      @media (max-width: 1275px) {
         grid-gap: 30px;
       }
 
-      @media (max-width: 1120px) {
+      @media (max-width: 1160px) {
         grid-gap: 20px;
       }
 
@@ -328,6 +328,10 @@
   border: 1.5px solid $color-main;
   cursor: pointer;
 
+  &--no-border {
+    border: none;
+  }
+
   &__line {
     position: absolute;
     top: 45%;
@@ -353,8 +357,7 @@
     top: 65px;
 
     @media (max-width: 1000px) {
-      top: auto;
-      right: 0;
+      display: none;
     }
   }
 
@@ -463,7 +466,7 @@
     grid-gap: 40px;
     align-items: center;
     justify-content: center;
-    height: 450px;
+    height: 311px;
     overflow-y: auto;
 
     @media (max-width: 1120px) {

@@ -1,3 +1,45 @@
+<div class="modal" id="contact-form">
+    <div class="modal__backdrop modal__close"></div>
+    <div class="modal__wrapper">
+        <section class="contact-form">
+            <div class="modal__container contact-form__container container">
+                <div class="modal__close modal__cross">
+                    <span class="close close--no-border">
+                        <span class="close__line"></span>
+                        <span class="close__line"></span>
+                    </span>
+                </div>
+                <div class="modal__form-wrapper contact-form__wrapper cells">
+                    <div class="contact-form__cell cell">
+                        <h2 class="contact-form__title">Покупайте шубу из соболя только после знакомства с натуральной
+                            продукцией от
+                            компании Мастер Соболь. <span>Консультация бесплатна.</span></h2>
+                    </div>
+                    <div class="contact-form__cell cell">
+                        <form class="form">
+                            <label class="contact-form__field">
+                                <input type="text" placeholder="Имя *" required>
+                            </label>
+                            <label class="contact-form__field">
+                                <input type="tel" placeholder="Тел *" required>
+                            </label>
+
+                            <button type="submit" class="contact-form__btn btn btn--main">Отправить <span
+                                        class="btn__icon icon-long-arrow"></span></button>
+
+                            <p class="contact-form__caption">Нажимая кнопку «Отправить», вы соглашаетесь предоставить вашу
+                                информацию компании «Мастер Соболь»,
+                                которая обязуется использовать ее в соответствии со своей <a
+                                        href="{{ get_privacy_policy_url() }}" target="_blank">политикой конфиденциальности</a>.
+                            </p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+
 <footer class="footer">
     <div class="container container--full">
         <div class="footer__wrapper">

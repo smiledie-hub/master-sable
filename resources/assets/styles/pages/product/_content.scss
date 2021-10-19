@@ -1,5 +1,22 @@
 .product-card {
-  margin-top: 78px;
+  margin-top: 70px;
+
+  &__back {
+    display: flex;
+    align-items: center;
+    margin-bottom: 78px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+
+    &-icon {
+      display: table;
+      transform: scaleX(-1);
+      margin-right: 35px;
+      font-size: 0.8em;
+    }
+  }
 
   &__container {
     @media (max-width: 1000px) {

@@ -103,6 +103,7 @@
         margin-top: 35px;
         max-height: none;
       }
+
       .catalog-filter-select__icon {
         transform: scaleY(-1);
       }
@@ -155,22 +156,19 @@
 }
 
 .catalog-checkbox, .catalog-radio {
-  display: table;
+  user-select: none;
+  display: flex;
+  align-items: center;
   width: 100%;
 
   &:not(:last-child) {
     margin-bottom: 21px;
   }
 
-  &__input {
-    width: 12px;
-    height: 12px;
-    margin-right: 15px;
-  }
-
   &__caption {
     font-size: 15px;
     color: #000000;
+    margin-left: 15px;
   }
 }
 
@@ -182,6 +180,17 @@
 
   &:hover {
     opacity: 0.8;
+
+    .catalog-item__image-hover {
+      opacity: 1;
+      visibility: visible;
+      transform: scale(1);
+    }
+
+    .catalog-item__image {
+      visibility: hidden;
+      opacity: 0;
+    }
   }
 
   &__offscreen {
@@ -248,7 +257,8 @@
   &__image {
     height: 430px;
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
+    transition: opacity 300ms;
 
     @media (max-width: 1200px) {
       height: 300px;
@@ -256,6 +266,18 @@
 
     @media (max-width: 767px) {
       height: 250px;
+    }
+
+    &-hover {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      visibility: hidden;
+      transition: opacity 300ms, transform 300ms;
+      transform: scale(0.8);
     }
   }
 

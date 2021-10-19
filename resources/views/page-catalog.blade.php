@@ -21,7 +21,7 @@
                         изготовления изделий по эскизам.', 'partner' => true])
         </div>
         <div class="singlepage-catalog__contact-form">
-            @include('pages.home.contact-form')
+            @include('pages.catalog.contact-form')
         </div>
     </div>
 

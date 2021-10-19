@@ -6,20 +6,17 @@
             <div class="sets-items swiper">
 
                 <div class="swiper-wrapper">
-                    @foreach($items as $item)
-                        <article class="catalog-item swiper-slide">
-                            <a href="{{ $item['link'] }}" class="catalog-item__link"></a>
-                            <div class="catalog-item__cover">
-                                <picture>
-                                    <img class="catalog-item__image" loading="lazy"
-                                         src="{{ $item['image'] }}" alt="cover">
-                                </picture>
-                            </div>
-                            <h3 class="catalog-item__title">{{ $item['title'] }}</h3>
-                            <p class="catalog-item__text">{{ $item['text'] }}</p>
-                            <p class="catalog-item__price">{{ $item['price'] }}</p>
-                        </article>
-                    @endforeach
+                    @for ($i = 0; $i < 6; $i++)
+                        @include('components/catalog-item', [
+                            'title' => 'СОБОЛЬ КРЯЖ',
+                            'text' => 'PREMIUM / 2 цвет / 1 седина / 60 шкурок / XL',
+                            'price' => '100 000',
+                            'price_opt' => '2 300 000',
+                            'link' => '/product',
+                            'image' => get_template_directory_uri().'/assets/images/catalog/img1.jpg',
+                            'image_hover' => get_template_directory_uri().'/assets/images/catalog/img2.jpg'
+                        ])
+                    @endfor
                 </div>
             </div>
 

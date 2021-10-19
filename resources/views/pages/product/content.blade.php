@@ -1,4 +1,7 @@
 <section class="product-card">
+    <div class="container">
+        <a href="/catalog" class="product-card__back"><span class="product-card__back-icon icon-long-arrow"></span>Вернуться</a>
+    </div>
     <div class="product-card__container container container--full">
         <div class="product-card__cells cells">
             <div class="product-card__cell cell">

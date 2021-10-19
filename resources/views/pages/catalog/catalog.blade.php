@@ -8,23 +8,27 @@
                         <p class="catalog-filter-radio__title">Мех</p>
                     </div>
 
-                    <label class="catalog-radio">
-                        <input class="catalog-radio__input" type="radio" name="fur" checked/>
+                    <label class="catalog-radio custom-radio">
+                        <input class="custom-radio__input" type="radio" name="fur" checked/>
+                        <span class="custom-radio__circle"></span>
                         <span class="catalog-radio__caption">Cоболь</span>
                     </label>
 
-                    <label class="catalog-radio">
-                        <input class="catalog-radio__input" type="radio" name="fur"/>
+                    <label class="catalog-radio custom-radio">
+                        <input class="custom-radio__input" type="radio" name="fur"/>
+                        <span class="custom-radio__circle"></span>
                         <span class="catalog-radio__caption">Куница</span>
                     </label>
 
-                    <label class="catalog-radio">
-                        <input class="catalog-radio__input" type="radio" name="fur"/>
+                    <label class="catalog-radio custom-radio">
+                        <input class="custom-radio__input" type="radio" name="fur"/>
+                        <span class="custom-radio__circle"></span>
                         <span class="catalog-radio__caption">Рысь</span>
                     </label>
 
-                    <label class="catalog-radio">
-                        <input class="catalog-radio__input" type="radio" name="fur"/>
+                    <label class="catalog-radio custom-radio">
+                        <input class="custom-radio__input" type="radio" name="fur"/>
+                        <span class="custom-radio__circle"></span>
                         <span class="catalog-radio__caption">Другие меха</span>
                     </label>
                 </div>
@@ -39,24 +43,33 @@
                     </div>
 
                     <div class="catalog-filter-select__content">
-                        <label class="catalog-checkbox">
-                            <input class="catalog-checkbox__input" type="checkbox" name="Pure" checked/>
+                        <label class="custom-checkbox catalog-checkbox">
+                            <input class="custom-checkbox__input" type="checkbox" name="Pure" checked/>
+                            <span class="custom-checkbox__box"></span>
                             <span class="catalog-checkbox__caption">Pure</span>
                         </label>
-                        <label class="catalog-checkbox">
-                            <input class="catalog-checkbox__input" type="checkbox" name="Premium"/>
+
+                        <label class="custom-checkbox catalog-checkbox">
+                            <input class="custom-checkbox__input" type="checkbox" name="Premium"/>
+                            <span class="custom-checkbox__box"></span>
                             <span class="catalog-checkbox__caption">Premium</span>
                         </label>
-                        <label class="catalog-checkbox">
-                            <input class="catalog-checkbox__input" type="checkbox" name="Middle"/>
+
+                        <label class="custom-checkbox catalog-checkbox">
+                            <input class="custom-checkbox__input" type="checkbox" name="Middle"/>
+                            <span class="custom-checkbox__box"></span>
                             <span class="catalog-checkbox__caption">Middle</span>
                         </label>
-                        <label class="catalog-checkbox">
-                            <input class="catalog-checkbox__input" type="checkbox" name="Mass"/>
+
+                        <label class="custom-checkbox catalog-checkbox">
+                            <input class="custom-checkbox__input" type="checkbox" name="Mass"/>
+                            <span class="custom-checkbox__box"></span>
                             <span class="catalog-checkbox__caption">Mass</span>
                         </label>
-                        <label class="catalog-checkbox">
-                            <input class="catalog-checkbox__input" type="checkbox" name="Trash"/>
+
+                        <label class="custom-checkbox catalog-checkbox">
+                            <input class="custom-checkbox__input" type="checkbox" name="Trash"/>
+                            <span class="custom-checkbox__box"></span>
                             <span class="catalog-checkbox__caption">Trash</span>
                         </label>
                     </div>
@@ -142,158 +155,20 @@
             </div>
             <div class="catalog-products">
                 <div class="catalog-products__items">
-
-                    <article class="catalog-item swiper-slide">
-                        <a href="/product" class="catalog-item__link"></a>
-
-                        <div class="catalog-item__cover">
-                            <div class="catalog-item__offscreen catalog-item__offscreen--blur">
-                                <div class="catalog-item__offscreen__header">
-
-                                </div>
-                               <div class="catalog-item__offscreen__footer">
-                                   <p class="catalog-item__offscreen__title">Набор собирается</p>
-                                   <p class="catalog-item__offscreen__text">Предположительное время выхода к сезону 2020-2021 г.</p>
-                               </div>
-                            </div>
-
-                            <picture>
-                                <img class="catalog-item__image" loading="lazy"
-                                     src="{{ get_template_directory_uri().'/assets/images/catalog/img1.jpg' }}" alt="product">
-                            </picture>
-                        </div>
-                        <h3 class="catalog-item__title">СОБОЛЬ КРЯЖ</h3>
-                        <p class="catalog-item__text">PREMIUM / 2 цвет  / 1 седина / 60 шкурок / XL</p>
-                        <p class="catalog-item__price">
-                            <span>100 000 ₽</span>
-                            <span class="catalog-item__price-opt">2 300 000 ₽  ОПТ</span>
-                        </p>
-                    </article>
-                    <article class="catalog-item swiper-slide">
-                        <a href="/product" class="catalog-item__link"></a>
-                        <div class="catalog-item__cover">
-                            <div class="catalog-item__offscreen catalog-item__offscreen">
-                                <div class="catalog-item__offscreen__header">
-                                    <div class="exclusive">
-                                        <span class="exclusive__icon icon icon-exclusive"></span>
-                                        <span class="exclusive__text">EXCLUSIVE</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <picture>
-                                <img class="catalog-item__image" loading="lazy"
-                                     src="{{ get_template_directory_uri().'/assets/images/catalog/img1.jpg' }}" alt="product">
-                            </picture>
-                        </div>
-                        <h3 class="catalog-item__title">СОБОЛЬ КРЯЖ</h3>
-                        <p class="catalog-item__text">PREMIUM / 2 цвет  / 1 седина / 60 шкурок / XL</p>
-                        <p class="catalog-item__price">
-                            <span>100 000 ₽</span>
-                            <span class="catalog-item__price-opt">2 300 000 ₽  ОПТ</span>
-                        </p>
-                    </article>
-                    <article class="catalog-item swiper-slide">
-                        <a href="/product" class="catalog-item__link"></a>
-
-                        <div class="catalog-item__cover">
-                            <div class="catalog-item__offscreen catalog-item__offscreen--blur">
-                                <div class="catalog-item__offscreen__header">
-
-                                </div>
-                                <div class="catalog-item__offscreen__footer">
-                                    <p class="catalog-item__offscreen__title">Набор продан</p>
-                                    <p class="catalog-item__offscreen__text">Собираем следующий</p>
-                                </div>
-                            </div>
-
-                            <picture>
-                                <img class="catalog-item__image" loading="lazy"
-                                     src="{{ get_template_directory_uri().'/assets/images/catalog/img1.jpg' }}" alt="product">
-                            </picture>
-                        </div>
-                        <h3 class="catalog-item__title">СОБОЛЬ КРЯЖ</h3>
-                        <p class="catalog-item__text">PREMIUM / 2 цвет  / 1 седина / 60 шкурок / XL</p>
-                        <p class="catalog-item__price">
-                            <span>100 000 ₽</span>
-                            <span class="catalog-item__price-opt">2 300 000 ₽  ОПТ</span>
-                        </p>
-                    </article>
-                    <article class="catalog-item swiper-slide">
-                        <a href="/product" class="catalog-item__link"></a>
-                        <div class="catalog-item__cover">
-                            <picture>
-                                <img class="catalog-item__image" loading="lazy"
-                                     src="{{ get_template_directory_uri().'/assets/images/catalog/img1.jpg' }}" alt="product">
-                            </picture>
-                        </div>
-                        <h3 class="catalog-item__title">СОБОЛЬ КРЯЖ</h3>
-                        <p class="catalog-item__text">PREMIUM / 2 цвет  / 1 седина / 60 шкурок / XL</p>
-                        <p class="catalog-item__price">
-                            <span>100 000 ₽</span>
-                            <span class="catalog-item__price-opt">2 300 000 ₽  ОПТ</span>
-                        </p>
-                    </article>
-                    <article class="catalog-item swiper-slide">
-                        <a href="/product" class="catalog-item__link"></a>
-                        <div class="catalog-item__cover">
-                            <picture>
-                                <img class="catalog-item__image" loading="lazy"
-                                     src="{{ get_template_directory_uri().'/assets/images/catalog/img1.jpg' }}" alt="product">
-                            </picture>
-                        </div>
-                        <h3 class="catalog-item__title">СОБОЛЬ КРЯЖ</h3>
-                        <p class="catalog-item__text">PREMIUM / 2 цвет  / 1 седина / 60 шкурок / XL</p>
-                        <p class="catalog-item__price">
-                            <span>100 000 ₽</span>
-                            <span class="catalog-item__price-opt">2 300 000 ₽  ОПТ</span>
-                        </p>
-                    </article>
-                    <article class="catalog-item swiper-slide">
-                        <a href="/product" class="catalog-item__link"></a>
-                        <div class="catalog-item__cover">
-                            <picture>
-                                <img class="catalog-item__image" loading="lazy"
-                                     src="{{ get_template_directory_uri().'/assets/images/catalog/img1.jpg' }}" alt="product">
-                            </picture>
-                        </div>
-                        <h3 class="catalog-item__title">СОБОЛЬ КРЯЖ</h3>
-                        <p class="catalog-item__text">PREMIUM / 2 цвет  / 1 седина / 60 шкурок / XL</p>
-                        <p class="catalog-item__price">
-                            <span>100 000 ₽</span>
-                            <span class="catalog-item__price-opt">2 300 000 ₽  ОПТ</span>
-                        </p>
-                    </article>
-                    <article class="catalog-item swiper-slide">
-                        <a href="/product" class="catalog-item__link"></a>
-                        <div class="catalog-item__cover">
-                            <picture>
-                                <img class="catalog-item__image" loading="lazy"
-                                     src="{{ get_template_directory_uri().'/assets/images/catalog/img1.jpg' }}" alt="product">
-                            </picture>
-                        </div>
-                        <h3 class="catalog-item__title">СОБОЛЬ КРЯЖ</h3>
-                        <p class="catalog-item__text">PREMIUM / 2 цвет  / 1 седина / 60 шкурок / XL</p>
-                        <p class="catalog-item__price">
-                            <span>100 000 ₽</span>
-                            <span class="catalog-item__price-opt">2 300 000 ₽  ОПТ</span>
-                        </p>
-                    </article>
-                    <article class="catalog-item swiper-slide">
-                        <a href="/product" class="catalog-item__link"></a>
-                        <div class="catalog-item__cover">
-                            <picture>
-                                <img class="catalog-item__image" loading="lazy"
-                                     src="{{ get_template_directory_uri().'/assets/images/catalog/img1.jpg' }}" alt="product">
-                            </picture>
-                        </div>
-                        <h3 class="catalog-item__title">СОБОЛЬ КРЯЖ</h3>
-                        <p class="catalog-item__text">PREMIUM / 2 цвет  / 1 седина / 60 шкурок / XL</p>
-                        <p class="catalog-item__price">
-                            <span>100 000 ₽</span>
-                            <span class="catalog-item__price-opt">2 300 000 ₽  ОПТ</span>
-                        </p>
-                    </article>
-
+                    @for ($i = 0; $i < 8; $i++)
+                        @include('components/catalog-item', [
+                            'title' => 'СОБОЛЬ КРЯЖ',
+                            'text' => 'PREMIUM / 2 цвет / 1 седина / 60 шкурок / XL',
+                            'price' => '100 000',
+                            'price_opt' => '2 300 000',
+                            'link' => '/product',
+                            'image' => get_template_directory_uri().'/assets/images/catalog/img1.jpg',
+                            'image_hover' => get_template_directory_uri().'/assets/images/catalog/img2.jpg',
+                            'exlusive' => $i === 1,
+                            'ended' => $i === 2,
+                            'going' => $i === 3,
+                        ])
+                    @endfor
                 </div>
 
                 <div class="catalog-products__footer">

@@ -151,5 +151,4 @@
         </div>
     </div>
 </div>
-
-<a href="/contacts" class="submit-application btn btn-gray">Оставить заявку</a>
+<a href="/contacts" data-modal="contact-form" class="modal-open submit-application btn btn-gray">Оставить заявку</a>

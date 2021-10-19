@@ -9,7 +9,7 @@
         </div>
         <div class="catalog-headline__cells cells">
             <div class="catalog-headline__cell cell">
-                <p class="catalog-headline__caption"><span class="catalog-headline__caption-icon">!</span>Рекомендуем оставлять заявку на шубный набор заранее, чтобы успеть
+                <p class="catalog-headline__caption"><span class="catalog-headline__caption-icon"><cpan class="icon-recomended"></cpan></span>Рекомендуем оставлять заявку на шубный набор заранее, чтобы успеть
                     изготовить изделие к сезону</p>
             </div>
             <div class="catalog-headline__cell cell">

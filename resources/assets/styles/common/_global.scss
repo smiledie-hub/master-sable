@@ -5,6 +5,10 @@ body {
   color: $color-main;
   background-color: #fff;
   font-family: Montserrat, sans-serif;
+
+  .no-scroll {
+    overflow: hidden;
+  }
 }
 
 * {
@@ -33,6 +37,7 @@ img {
   text-decoration: none;
   display: inline-block;
   transition: opacity 300ms;
+  line-height: 150%;
 
   &--default {
     display: inline-flex;

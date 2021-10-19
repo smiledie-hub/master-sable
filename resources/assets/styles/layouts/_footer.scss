@@ -44,7 +44,7 @@
   &__wrapper {
     display: grid;
     justify-content: space-between;
-    grid-template-columns: minmax(200px, 280px) 1fr minmax(280px, 430px);
+    grid-template-columns: minmax(150px, 280px) 1fr minmax(280px, 430px);
     grid-template-areas: "start navs end";
     grid-gap: 0 150px;
 

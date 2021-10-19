@@ -3,6 +3,36 @@ import accordion from '../accordion';
 
 export default {
     init() {
+        const $modals = document.querySelectorAll('.modal')
+        const $modalBtns = document.querySelectorAll('.modal-open')
+        $modals.forEach($modal => {
+            const $closes = $modal.querySelectorAll('.modal__close')
+            $closes.forEach($close => {
+                $close.addEventListener('click', (e) => {
+                    e.preventDefault()
+                    e.stopPropagation()
+                    
+                    $modal.classList.remove('modal--active')
+                    document.body.classList.remove('no-scroll')
+                })
+            })
+        })
+        $modalBtns.forEach($btn => {
+            const target = $btn.getAttribute('data-modal')
+            
+            target && $btn.addEventListener('click', (e) => {
+                e.preventDefault()
+                e.stopPropagation()
+                
+                const $modal = document.getElementById(target)
+                if ($modal) {
+                    $modal.classList.add('modal--active')
+                    document.body.classList.add('no-scroll')
+                }
+            })
+        })
+        
+        
         accordion(document.getElementsByClassName('accordion__header'))
         accordion(document.getElementsByClassName('catalog-filter-select__header'), '.catalog-filter-select__content', 'catalog-filter__item--active', false)
         
