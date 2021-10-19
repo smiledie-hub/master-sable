@@ -44,16 +44,20 @@
   &__wrapper {
     display: grid;
     justify-content: space-between;
-    grid-template-columns: minmax(150px, 280px) 1fr minmax(280px, 430px);
+    grid-template-columns: minmax(250px, 280px) 1fr minmax(280px, 430px);
     grid-template-areas: "start navs end";
     grid-gap: 0 150px;
 
-    @media (max-width: 1560px) {
+    @media (max-width: 1760px) {
       grid-gap: 0 100px;
     }
 
-    @media (max-width: 1460px) {
+    @media (max-width: 1560px) {
       grid-gap: 0 50px;
+    }
+
+    @media (max-width: 1460px) {
+      grid-gap: 0 30px;
     }
 
     @media (max-width: 1360px) {
@@ -79,6 +83,7 @@
   &__section {
     display: flex;
     justify-content: space-between;
+    grid-gap: 30px;
 
     &:not(:last-child) {
       margin-bottom: 64px;
@@ -94,7 +99,7 @@
   }
 
   &__section-item {
-    width: 250px;
+    width: 182px;
 
     @media (max-width: 767px) {
       max-width: 240px;
@@ -155,7 +160,7 @@
 
   &__cult {
     display: block;
-    margin-top: 57px;
+    margin-top: 37px;
   }
 
   &__text {
