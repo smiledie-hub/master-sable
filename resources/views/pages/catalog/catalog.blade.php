@@ -155,7 +155,7 @@
             </div>
             <div class="catalog-products">
                 <div class="catalog-products__items">
-                    @for ($i = 0; $i < 8; $i++)
+                    @for ($i = 0; $i < 3; $i++)
                         @include('components/catalog-item', [
                             'title' => 'СОБОЛЬ КРЯЖ',
                             'text' => 'PREMIUM / 2 цвет / 1 седина / 60 шкурок / XL',
@@ -169,7 +169,35 @@
                             'going' => $i === 3,
                         ])
                     @endfor
+                    @for ($i = 0; $i < 3; $i++)
+                        @include('components/catalog-item', [
+                            'title' => 'СОБОЛЬ КРЯЖ',
+                            'text' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab commodi deleniti dignissimos earum eos facilis quae qui repellendus suscipit vel?',
+                            'price' => '100 000',
+                            'price_opt' => '2 300 000',
+                            'link' => '/product',
+                            'image' => get_template_directory_uri().'/assets/images/catalog/img1.jpg',
+                            'image_hover' => get_template_directory_uri().'/assets/images/catalog/img2.jpg',
+                            'exlusive' => $i === 0,
+                            'ended' => $i === 1,
+                            'going' => $i === 2,
+                        ])
+                    @endfor
+
+                        @for ($i = 0; $i < 2; $i++)
+                            @include('components/catalog-item', [
+                                'title' => 'СОБОЛЬ КРЯЖ',
+                                'text' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab commodi deleniti dignissimos earum eos facilis quae qui repellendus suscipit vel? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab commodi deleniti dignissimos earum eos facilis quae qui repellendus suscipit vel?',
+                                'price' => '100 000',
+                                'price_opt' => '2 300 000',
+                                'link' => '/product',
+                                'image' => get_template_directory_uri().'/assets/images/catalog/img1.jpg',
+                                'image_hover' => get_template_directory_uri().'/assets/images/catalog/img2.jpg'
+                            ])
+                        @endfor
                 </div>
+
+
 
                 <div class="catalog-products__footer">
                     <div></div>

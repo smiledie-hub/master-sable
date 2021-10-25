@@ -53,7 +53,6 @@
         }
       }
 
-
       .home &, .our-production &, .brand & {
         color: $color-main;
         border-color: #0C0C0C;
@@ -61,6 +60,16 @@
         li.current {
           border-color: #000;
         }
+      }
+    }
+
+    &--active {
+      color: $color-main !important;
+      background-color: #fff;
+      border-color: #0C0C0C;
+
+      li.current {
+        border-color: #000;
       }
     }
   }
@@ -374,6 +383,7 @@
     @media (max-width: 1000px) {
       width: 100%;
     }
+
     &--toggle {
       .nav__content {
         opacity: 1;

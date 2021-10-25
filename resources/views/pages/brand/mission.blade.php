@@ -8,7 +8,7 @@
             <div class="mission__cell cell">
                 <h2 class="mission__title">Миссия нашей компании – сделать различия в качестве соболя очевидными каждому клиенту, что позволит
                     сделать правильный выбор.</h2>
-                <a href="#" class="link link--default">Наши статьи <span class="link__icon icon-long-arrow"></span></a>
+                <a href="#" class="link link--default link--weight">Наши статьи <span class="link__icon icon-long-arrow"></span></a>
             </div>
         </div>
     </div>

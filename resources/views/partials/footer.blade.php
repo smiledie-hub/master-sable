@@ -27,10 +27,12 @@
                             <button type="submit" class="contact-form__btn btn btn--main">Отправить <span
                                         class="btn__icon icon-long-arrow"></span></button>
 
-                            <p class="contact-form__caption">Нажимая кнопку «Отправить», вы соглашаетесь предоставить вашу
+                            <p class="contact-form__caption">Нажимая кнопку «Отправить», вы соглашаетесь предоставить
+                                вашу
                                 информацию компании «Мастер Соболь»,
                                 которая обязуется использовать ее в соответствии со своей <a
-                                        href="{{ get_privacy_policy_url() }}" target="_blank">политикой конфиденциальности</a>.
+                                        href="{{ get_privacy_policy_url() }}" target="_blank">политикой
+                                    конфиденциальности</a>.
                             </p>
                         </form>
                     </div>
@@ -48,7 +50,7 @@
                     <a href="{{ home_url() }}" class="link link--default"><span class="icon-logotype"></span></a>
                 </div>
                 <div>
-                    <p class="footer__text">© Copyright 2020 Master Sobol</p>
+                    <p class="footer__text">© Copyright {{ date('Y') }} Master Sobol</p>
                     <a class="footer__privacy link" href="{{ get_privacy_policy_url() }}" target="_blank">Политика
                         конфиденциальности</a>
                     <div class="footer__cult cult">
@@ -72,7 +74,7 @@
                     </div>
                     <div class="footer__section-item">
                         <a href="#" class="footer__title link link--default">ПОСТАВЩИКАМ <span
-                                    class="icon-long-arrow"></span></a>
+                                    class="link__icon icon-long-arrow"></span></a>
                         <p class="footer__title">ШУБНЫЕ НАБОРЫ</p>
 
                         <nav class="footer__nav">
@@ -126,7 +128,7 @@
             </div>
             <div class="footer__end">
                 <div class="footer__adressess">
-                    <p class="footer__title">ПОДПИШИТЕСЬ НА РАССЫЛКУ</p>
+                    <p class="footer__title">ПОДПИШИТЕСЬ НА РАССЫЛКУ *</p>
 
                     <form class="mailing">
                         <label class="mailing__field">
@@ -135,7 +137,7 @@
                                 <span class="icon-long-arrow"></span>
                             </button>
                         </label>
-                        <p class="mailing__caption">Уникальные акции и интересные статьи только для подписчиков
+                        <p class="mailing__caption">* Уникальные акции и интересные статьи только для подписчиков
                             рассылки</p>
                     </form>
 

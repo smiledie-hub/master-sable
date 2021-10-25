@@ -44,11 +44,12 @@
   &__text {
     font-family: Montserrat, sans-serif;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 16px;
     line-height: 150%;
     opacity: 1;
     max-width: 480px;
+    letter-spacing: normal;
 
     &:not(:last-child) {
       margin-bottom: 40px;

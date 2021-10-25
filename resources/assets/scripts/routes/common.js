@@ -104,7 +104,6 @@ export default {
         }
         
         const $navEl = document.querySelectorAll('.nav__li')
-        console.log($navEl)
         
         $navEl.forEach($el => {
             const $content = $el.querySelector('.nav__content')
@@ -112,6 +111,7 @@ export default {
             if ($content) {
                 const $close = $el.querySelector('.nav__close')
                 const $link = $el.querySelector('.nav__link')
+                const $cap = document.querySelector('.cap')
                 
                 $link && $link.addEventListener('click', (e) => {
                     e.preventDefault()
@@ -121,9 +121,11 @@ export default {
                         $navEl.forEach(($nav) => {
                             $nav.classList.remove('nav__li--toggle')
                         })
-                        
+    
+                        $cap.classList.add('cap--active')
                         $el.classList.add('nav__li--toggle')
                     } else {
+                        $cap.classList.remove('cap--active')
                         $el.classList.remove('nav__li--toggle')
                     }
                 })
@@ -131,7 +133,7 @@ export default {
                 $close && $close.addEventListener('click', (e) => {
                     e.preventDefault()
                     e.stopPropagation()
-                    
+                    $cap.classList.remove('cap--active')
                     $el.classList.remove('nav__li--toggle')
                 })
             }

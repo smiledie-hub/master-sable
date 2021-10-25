@@ -63,6 +63,11 @@
     font-weight: 500;
     font-size: 14px;
     letter-spacing: 0.02em;
+
+    &:hover {
+      opacity: 1;
+      text-decoration: none;
+    }
   }
 
   &__title {

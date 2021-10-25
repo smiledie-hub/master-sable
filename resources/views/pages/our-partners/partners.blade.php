@@ -27,543 +27,67 @@
                                  alt="cover">
                             <span class="partners-items__text">посмотреть изделия</span>
                         </div>
-                        <div class="partners-items__child">
-                            <a href="#" class="partners-items__link"></a>
-                            <svg class="partners-items__image" width="173" height="99" viewBox="0 0 173 99" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <rect opacity="0.2" x="0.5" y="0.5" width="172" height="96.4269" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 1.14624L170.81 96.8538" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 98L170.81 1.14624" stroke="black"/>
-                            </svg>
-
-                            <span class="partners-items__text">посмотреть изделия</span>
-                        </div>
-                        <div class="partners-items__child">
-                            <a href="#" class="partners-items__link"></a>
-                            <svg class="partners-items__image" width="173" height="99" viewBox="0 0 173 99" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <rect opacity="0.2" x="0.5" y="0.5" width="172" height="96.4269" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 1.14624L170.81 96.8538" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 98L170.81 1.14624" stroke="black"/>
-                            </svg>
-
-                            <span class="partners-items__text">посмотреть изделия</span>
-                        </div>
-                        <div class="partners-items__child">
-                            <a href="#" class="partners-items__link"></a>
-                            <svg class="partners-items__image" width="173" height="99" viewBox="0 0 173 99" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <rect opacity="0.2" x="0.5" y="0.5" width="172" height="96.4269" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 1.14624L170.81 96.8538" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 98L170.81 1.14624" stroke="black"/>
-                            </svg>
-
-                            <span class="partners-items__text">посмотреть изделия</span>
-                        </div>
-                        <div class="partners-items__child">
-                            <a href="#" class="partners-items__link"></a>
-                            <svg class="partners-items__image" width="173" height="99" viewBox="0 0 173 99" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <rect opacity="0.2" x="0.5" y="0.5" width="172" height="96.4269" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 1.14624L170.81 96.8538" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 98L170.81 1.14624" stroke="black"/>
-                            </svg>
-
-                            <span class="partners-items__text">посмотреть изделия</span>
-                        </div>
-                        <div class="partners-items__child">
-                            <a href="#" class="partners-items__link"></a>
-
-                            <svg class="partners-items__image" width="173" height="99" viewBox="0 0 173 99" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <rect opacity="0.2" x="0.5" y="0.5" width="172" height="96.4269" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 1.14624L170.81 96.8538" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 98L170.81 1.14624" stroke="black"/>
-                            </svg>
-
-                            <span class="partners-items__text">посмотреть изделия</span>
-                        </div>
                     </div>
                     <div id="novosibirsk" class="partners-items">
                         <div class="partners-items__child">
                             <a href="#" class="partners-items__link"></a>
-                            <svg class="partners-items__image" width="173" height="99" viewBox="0 0 173 99" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <rect opacity="0.2" x="0.5" y="0.5" width="172" height="96.4269" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 1.14624L170.81 96.8538" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 98L170.81 1.14624" stroke="black"/>
-                            </svg>
-
-                            <span class="partners-items__text">посмотреть изделия</span>
-                        </div>
-                        <div class="partners-items__child">
-                            <a href="#" class="partners-items__link"></a>
-                            <svg class="partners-items__image" width="173" height="99" viewBox="0 0 173 99" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <rect opacity="0.2" x="0.5" y="0.5" width="172" height="96.4269" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 1.14624L170.81 96.8538" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 98L170.81 1.14624" stroke="black"/>
-                            </svg>
-
-                            <span class="partners-items__text">посмотреть изделия</span>
-                        </div>
-                        <div class="partners-items__child">
-                            <a href="#" class="partners-items__link"></a>
-                            <svg class="partners-items__image" width="173" height="99" viewBox="0 0 173 99" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <rect opacity="0.2" x="0.5" y="0.5" width="172" height="96.4269" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 1.14624L170.81 96.8538" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 98L170.81 1.14624" stroke="black"/>
-                            </svg>
-
-                            <span class="partners-items__text">посмотреть изделия</span>
-                        </div>
-                        <div class="partners-items__child">
-                            <a href="#" class="partners-items__link"></a>
-                            <svg class="partners-items__image" width="173" height="99" viewBox="0 0 173 99" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <rect opacity="0.2" x="0.5" y="0.5" width="172" height="96.4269" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 1.14624L170.81 96.8538" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 98L170.81 1.14624" stroke="black"/>
-                            </svg>
-
-                            <span class="partners-items__text">посмотреть изделия</span>
-                        </div>
-                        <div class="partners-items__child">
-                            <a href="#" class="partners-items__link"></a>
-                            <svg class="partners-items__image" width="173" height="99" viewBox="0 0 173 99" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <rect opacity="0.2" x="0.5" y="0.5" width="172" height="96.4269" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 1.14624L170.81 96.8538" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 98L170.81 1.14624" stroke="black"/>
-                            </svg>
-
-                            <span class="partners-items__text">посмотреть изделия</span>
-                        </div>
-                        <div class="partners-items__child">
-                            <a href="#" class="partners-items__link"></a>
-
-                            <svg class="partners-items__image" width="173" height="99" viewBox="0 0 173 99" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <rect opacity="0.2" x="0.5" y="0.5" width="172" height="96.4269" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 1.14624L170.81 96.8538" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 98L170.81 1.14624" stroke="black"/>
-                            </svg>
-
+                            <img class="partners-items__image"
+                                 src="{{ get_template_directory_uri().'/assets/images/partners/img1.png' }}"
+                                 alt="cover">
                             <span class="partners-items__text">посмотреть изделия</span>
                         </div>
                     </div>
                     <div id="kazan" class="partners-items">
                         <div class="partners-items__child">
                             <a href="#" class="partners-items__link"></a>
-                            <svg class="partners-items__image" width="173" height="99" viewBox="0 0 173 99" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <rect opacity="0.2" x="0.5" y="0.5" width="172" height="96.4269" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 1.14624L170.81 96.8538" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 98L170.81 1.14624" stroke="black"/>
-                            </svg>
-
-                            <span class="partners-items__text">посмотреть изделия</span>
-                        </div>
-                        <div class="partners-items__child">
-                            <a href="#" class="partners-items__link"></a>
-                            <svg class="partners-items__image" width="173" height="99" viewBox="0 0 173 99" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <rect opacity="0.2" x="0.5" y="0.5" width="172" height="96.4269" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 1.14624L170.81 96.8538" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 98L170.81 1.14624" stroke="black"/>
-                            </svg>
-
-                            <span class="partners-items__text">посмотреть изделия</span>
-                        </div>
-                        <div class="partners-items__child">
-                            <a href="#" class="partners-items__link"></a>
-                            <svg class="partners-items__image" width="173" height="99" viewBox="0 0 173 99" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <rect opacity="0.2" x="0.5" y="0.5" width="172" height="96.4269" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 1.14624L170.81 96.8538" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 98L170.81 1.14624" stroke="black"/>
-                            </svg>
-
-                            <span class="partners-items__text">посмотреть изделия</span>
-                        </div>
-                        <div class="partners-items__child">
-                            <a href="#" class="partners-items__link"></a>
-                            <svg class="partners-items__image" width="173" height="99" viewBox="0 0 173 99" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <rect opacity="0.2" x="0.5" y="0.5" width="172" height="96.4269" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 1.14624L170.81 96.8538" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 98L170.81 1.14624" stroke="black"/>
-                            </svg>
-
-                            <span class="partners-items__text">посмотреть изделия</span>
-                        </div>
-                        <div class="partners-items__child">
-                            <a href="#" class="partners-items__link"></a>
-                            <svg class="partners-items__image" width="173" height="99" viewBox="0 0 173 99" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <rect opacity="0.2" x="0.5" y="0.5" width="172" height="96.4269" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 1.14624L170.81 96.8538" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 98L170.81 1.14624" stroke="black"/>
-                            </svg>
-
-                            <span class="partners-items__text">посмотреть изделия</span>
-                        </div>
-                        <div class="partners-items__child">
-                            <a href="#" class="partners-items__link"></a>
-
-                            <svg class="partners-items__image" width="173" height="99" viewBox="0 0 173 99" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <rect opacity="0.2" x="0.5" y="0.5" width="172" height="96.4269" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 1.14624L170.81 96.8538" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 98L170.81 1.14624" stroke="black"/>
-                            </svg>
-
+                            <img class="partners-items__image"
+                                 src="{{ get_template_directory_uri().'/assets/images/partners/img1.png' }}"
+                                 alt="cover">
                             <span class="partners-items__text">посмотреть изделия</span>
                         </div>
                     </div>
                     <div id="ninzhny-novgorod" class="partners-items">
                         <div class="partners-items__child">
                             <a href="#" class="partners-items__link"></a>
-                            <svg class="partners-items__image" width="173" height="99" viewBox="0 0 173 99" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <rect opacity="0.2" x="0.5" y="0.5" width="172" height="96.4269" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 1.14624L170.81 96.8538" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 98L170.81 1.14624" stroke="black"/>
-                            </svg>
-
-                            <span class="partners-items__text">посмотреть изделия</span>
-                        </div>
-                        <div class="partners-items__child">
-                            <a href="#" class="partners-items__link"></a>
-                            <svg class="partners-items__image" width="173" height="99" viewBox="0 0 173 99" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <rect opacity="0.2" x="0.5" y="0.5" width="172" height="96.4269" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 1.14624L170.81 96.8538" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 98L170.81 1.14624" stroke="black"/>
-                            </svg>
-
-                            <span class="partners-items__text">посмотреть изделия</span>
-                        </div>
-                        <div class="partners-items__child">
-                            <a href="#" class="partners-items__link"></a>
-                            <svg class="partners-items__image" width="173" height="99" viewBox="0 0 173 99" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <rect opacity="0.2" x="0.5" y="0.5" width="172" height="96.4269" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 1.14624L170.81 96.8538" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 98L170.81 1.14624" stroke="black"/>
-                            </svg>
-
-                            <span class="partners-items__text">посмотреть изделия</span>
-                        </div>
-                        <div class="partners-items__child">
-                            <a href="#" class="partners-items__link"></a>
-                            <svg class="partners-items__image" width="173" height="99" viewBox="0 0 173 99" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <rect opacity="0.2" x="0.5" y="0.5" width="172" height="96.4269" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 1.14624L170.81 96.8538" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 98L170.81 1.14624" stroke="black"/>
-                            </svg>
-
-                            <span class="partners-items__text">посмотреть изделия</span>
-                        </div>
-                        <div class="partners-items__child">
-                            <a href="#" class="partners-items__link"></a>
-                            <svg class="partners-items__image" width="173" height="99" viewBox="0 0 173 99" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <rect opacity="0.2" x="0.5" y="0.5" width="172" height="96.4269" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 1.14624L170.81 96.8538" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 98L170.81 1.14624" stroke="black"/>
-                            </svg>
-
-                            <span class="partners-items__text">посмотреть изделия</span>
-                        </div>
-                        <div class="partners-items__child">
-                            <a href="#" class="partners-items__link"></a>
-
-                            <svg class="partners-items__image" width="173" height="99" viewBox="0 0 173 99" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <rect opacity="0.2" x="0.5" y="0.5" width="172" height="96.4269" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 1.14624L170.81 96.8538" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 98L170.81 1.14624" stroke="black"/>
-                            </svg>
-
+                            <img class="partners-items__image"
+                                 src="{{ get_template_directory_uri().'/assets/images/partners/img1.png' }}"
+                                 alt="cover">
                             <span class="partners-items__text">посмотреть изделия</span>
                         </div>
                     </div>
                     <div id="chelyabinsk" class="partners-items">
                         <div class="partners-items__child">
                             <a href="#" class="partners-items__link"></a>
-                            <svg class="partners-items__image" width="173" height="99" viewBox="0 0 173 99" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <rect opacity="0.2" x="0.5" y="0.5" width="172" height="96.4269" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 1.14624L170.81 96.8538" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 98L170.81 1.14624" stroke="black"/>
-                            </svg>
-
-                            <span class="partners-items__text">посмотреть изделия</span>
-                        </div>
-                        <div class="partners-items__child">
-                            <a href="#" class="partners-items__link"></a>
-                            <svg class="partners-items__image" width="173" height="99" viewBox="0 0 173 99" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <rect opacity="0.2" x="0.5" y="0.5" width="172" height="96.4269" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 1.14624L170.81 96.8538" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 98L170.81 1.14624" stroke="black"/>
-                            </svg>
-
-                            <span class="partners-items__text">посмотреть изделия</span>
-                        </div>
-                        <div class="partners-items__child">
-                            <a href="#" class="partners-items__link"></a>
-                            <svg class="partners-items__image" width="173" height="99" viewBox="0 0 173 99" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <rect opacity="0.2" x="0.5" y="0.5" width="172" height="96.4269" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 1.14624L170.81 96.8538" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 98L170.81 1.14624" stroke="black"/>
-                            </svg>
-
-                            <span class="partners-items__text">посмотреть изделия</span>
-                        </div>
-                        <div class="partners-items__child">
-                            <a href="#" class="partners-items__link"></a>
-                            <svg class="partners-items__image" width="173" height="99" viewBox="0 0 173 99" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <rect opacity="0.2" x="0.5" y="0.5" width="172" height="96.4269" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 1.14624L170.81 96.8538" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 98L170.81 1.14624" stroke="black"/>
-                            </svg>
-
-                            <span class="partners-items__text">посмотреть изделия</span>
-                        </div>
-                        <div class="partners-items__child">
-                            <a href="#" class="partners-items__link"></a>
-                            <svg class="partners-items__image" width="173" height="99" viewBox="0 0 173 99" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <rect opacity="0.2" x="0.5" y="0.5" width="172" height="96.4269" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 1.14624L170.81 96.8538" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 98L170.81 1.14624" stroke="black"/>
-                            </svg>
-
-                            <span class="partners-items__text">посмотреть изделия</span>
-                        </div>
-                        <div class="partners-items__child">
-                            <a href="#" class="partners-items__link"></a>
-
-                            <svg class="partners-items__image" width="173" height="99" viewBox="0 0 173 99" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <rect opacity="0.2" x="0.5" y="0.5" width="172" height="96.4269" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 1.14624L170.81 96.8538" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 98L170.81 1.14624" stroke="black"/>
-                            </svg>
-
+                            <img class="partners-items__image"
+                                 src="{{ get_template_directory_uri().'/assets/images/partners/img1.png' }}"
+                                 alt="cover">
                             <span class="partners-items__text">посмотреть изделия</span>
                         </div>
                     </div>
                     <div id="tyumen" class="partners-items">
                         <div class="partners-items__child">
                             <a href="#" class="partners-items__link"></a>
-                            <svg class="partners-items__image" width="173" height="99" viewBox="0 0 173 99" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <rect opacity="0.2" x="0.5" y="0.5" width="172" height="96.4269" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 1.14624L170.81 96.8538" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 98L170.81 1.14624" stroke="black"/>
-                            </svg>
-
-                            <span class="partners-items__text">посмотреть изделия</span>
-                        </div>
-                        <div class="partners-items__child">
-                            <a href="#" class="partners-items__link"></a>
-                            <svg class="partners-items__image" width="173" height="99" viewBox="0 0 173 99" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <rect opacity="0.2" x="0.5" y="0.5" width="172" height="96.4269" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 1.14624L170.81 96.8538" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 98L170.81 1.14624" stroke="black"/>
-                            </svg>
-
-                            <span class="partners-items__text">посмотреть изделия</span>
-                        </div>
-                        <div class="partners-items__child">
-                            <a href="#" class="partners-items__link"></a>
-                            <svg class="partners-items__image" width="173" height="99" viewBox="0 0 173 99" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <rect opacity="0.2" x="0.5" y="0.5" width="172" height="96.4269" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 1.14624L170.81 96.8538" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 98L170.81 1.14624" stroke="black"/>
-                            </svg>
-
-                            <span class="partners-items__text">посмотреть изделия</span>
-                        </div>
-                        <div class="partners-items__child">
-                            <a href="#" class="partners-items__link"></a>
-                            <svg class="partners-items__image" width="173" height="99" viewBox="0 0 173 99" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <rect opacity="0.2" x="0.5" y="0.5" width="172" height="96.4269" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 1.14624L170.81 96.8538" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 98L170.81 1.14624" stroke="black"/>
-                            </svg>
-
-                            <span class="partners-items__text">посмотреть изделия</span>
-                        </div>
-                        <div class="partners-items__child">
-                            <a href="#" class="partners-items__link"></a>
-                            <svg class="partners-items__image" width="173" height="99" viewBox="0 0 173 99" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <rect opacity="0.2" x="0.5" y="0.5" width="172" height="96.4269" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 1.14624L170.81 96.8538" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 98L170.81 1.14624" stroke="black"/>
-                            </svg>
-
-                            <span class="partners-items__text">посмотреть изделия</span>
-                        </div>
-                        <div class="partners-items__child">
-                            <a href="#" class="partners-items__link"></a>
-
-                            <svg class="partners-items__image" width="173" height="99" viewBox="0 0 173 99" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <rect opacity="0.2" x="0.5" y="0.5" width="172" height="96.4269" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 1.14624L170.81 96.8538" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 98L170.81 1.14624" stroke="black"/>
-                            </svg>
-
+                            <img class="partners-items__image"
+                                 src="{{ get_template_directory_uri().'/assets/images/partners/img1.png' }}"
+                                 alt="cover">
                             <span class="partners-items__text">посмотреть изделия</span>
                         </div>
                     </div>
                     <div id="st-petersburg" class="partners-items">
                         <div class="partners-items__child">
                             <a href="#" class="partners-items__link"></a>
-                            <svg class="partners-items__image" width="173" height="99" viewBox="0 0 173 99" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <rect opacity="0.2" x="0.5" y="0.5" width="172" height="96.4269" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 1.14624L170.81 96.8538" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 98L170.81 1.14624" stroke="black"/>
-                            </svg>
-
-                            <span class="partners-items__text">посмотреть изделия</span>
-                        </div>
-                        <div class="partners-items__child">
-                            <a href="#" class="partners-items__link"></a>
-                            <svg class="partners-items__image" width="173" height="99" viewBox="0 0 173 99" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <rect opacity="0.2" x="0.5" y="0.5" width="172" height="96.4269" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 1.14624L170.81 96.8538" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 98L170.81 1.14624" stroke="black"/>
-                            </svg>
-
-                            <span class="partners-items__text">посмотреть изделия</span>
-                        </div>
-                        <div class="partners-items__child">
-                            <a href="#" class="partners-items__link"></a>
-                            <svg class="partners-items__image" width="173" height="99" viewBox="0 0 173 99" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <rect opacity="0.2" x="0.5" y="0.5" width="172" height="96.4269" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 1.14624L170.81 96.8538" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 98L170.81 1.14624" stroke="black"/>
-                            </svg>
-
-                            <span class="partners-items__text">посмотреть изделия</span>
-                        </div>
-                        <div class="partners-items__child">
-                            <a href="#" class="partners-items__link"></a>
-                            <svg class="partners-items__image" width="173" height="99" viewBox="0 0 173 99" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <rect opacity="0.2" x="0.5" y="0.5" width="172" height="96.4269" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 1.14624L170.81 96.8538" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 98L170.81 1.14624" stroke="black"/>
-                            </svg>
-
-                            <span class="partners-items__text">посмотреть изделия</span>
-                        </div>
-                        <div class="partners-items__child">
-                            <a href="#" class="partners-items__link"></a>
-                            <svg class="partners-items__image" width="173" height="99" viewBox="0 0 173 99" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <rect opacity="0.2" x="0.5" y="0.5" width="172" height="96.4269" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 1.14624L170.81 96.8538" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 98L170.81 1.14624" stroke="black"/>
-                            </svg>
-
-                            <span class="partners-items__text">посмотреть изделия</span>
-                        </div>
-                        <div class="partners-items__child">
-                            <a href="#" class="partners-items__link"></a>
-
-                            <svg class="partners-items__image" width="173" height="99" viewBox="0 0 173 99" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <rect opacity="0.2" x="0.5" y="0.5" width="172" height="96.4269" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 1.14624L170.81 96.8538" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 98L170.81 1.14624" stroke="black"/>
-                            </svg>
-
+                            <img class="partners-items__image"
+                                 src="{{ get_template_directory_uri().'/assets/images/partners/img1.png' }}"
+                                 alt="cover">
                             <span class="partners-items__text">посмотреть изделия</span>
                         </div>
                     </div>
                     <div id="moscow" class="partners-items">
                         <div class="partners-items__child">
                             <a href="#" class="partners-items__link"></a>
-                            <svg class="partners-items__image" width="173" height="99" viewBox="0 0 173 99" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <rect opacity="0.2" x="0.5" y="0.5" width="172" height="96.4269" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 1.14624L170.81 96.8538" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 98L170.81 1.14624" stroke="black"/>
-                            </svg>
-
-                            <span class="partners-items__text">посмотреть изделия</span>
-                        </div>
-                        <div class="partners-items__child">
-                            <a href="#" class="partners-items__link"></a>
-                            <svg class="partners-items__image" width="173" height="99" viewBox="0 0 173 99" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <rect opacity="0.2" x="0.5" y="0.5" width="172" height="96.4269" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 1.14624L170.81 96.8538" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 98L170.81 1.14624" stroke="black"/>
-                            </svg>
-
-                            <span class="partners-items__text">посмотреть изделия</span>
-                        </div>
-                        <div class="partners-items__child">
-                            <a href="#" class="partners-items__link"></a>
-                            <svg class="partners-items__image" width="173" height="99" viewBox="0 0 173 99" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <rect opacity="0.2" x="0.5" y="0.5" width="172" height="96.4269" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 1.14624L170.81 96.8538" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 98L170.81 1.14624" stroke="black"/>
-                            </svg>
-
-                            <span class="partners-items__text">посмотреть изделия</span>
-                        </div>
-                        <div class="partners-items__child">
-                            <a href="#" class="partners-items__link"></a>
-                            <svg class="partners-items__image" width="173" height="99" viewBox="0 0 173 99" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <rect opacity="0.2" x="0.5" y="0.5" width="172" height="96.4269" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 1.14624L170.81 96.8538" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 98L170.81 1.14624" stroke="black"/>
-                            </svg>
-
-                            <span class="partners-items__text">посмотреть изделия</span>
-                        </div>
-                        <div class="partners-items__child">
-                            <a href="#" class="partners-items__link"></a>
-                            <svg class="partners-items__image" width="173" height="99" viewBox="0 0 173 99" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <rect opacity="0.2" x="0.5" y="0.5" width="172" height="96.4269" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 1.14624L170.81 96.8538" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 98L170.81 1.14624" stroke="black"/>
-                            </svg>
-
-                            <span class="partners-items__text">посмотреть изделия</span>
-                        </div>
-                        <div class="partners-items__child">
-                            <a href="#" class="partners-items__link"></a>
-
-                            <svg class="partners-items__image" width="173" height="99" viewBox="0 0 173 99" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <rect opacity="0.2" x="0.5" y="0.5" width="172" height="96.4269" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 1.14624L170.81 96.8538" stroke="black"/>
-                                <path opacity="0.2" d="M0.546875 98L170.81 1.14624" stroke="black"/>
-                            </svg>
-
+                            <img class="partners-items__image"
+                                 src="{{ get_template_directory_uri().'/assets/images/partners/img1.png' }}"
+                                 alt="cover">
                             <span class="partners-items__text">посмотреть изделия</span>
                         </div>
                     </div>
