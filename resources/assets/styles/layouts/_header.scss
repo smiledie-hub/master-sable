@@ -197,6 +197,10 @@
           height: auto;
         }
 
+        a {
+          letter-spacing: normal;
+        }
+
         &.current {
           border-bottom: 6px solid #000;
           @media (max-width: 1000px) {

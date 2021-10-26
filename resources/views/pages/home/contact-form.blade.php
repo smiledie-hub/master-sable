@@ -17,7 +17,7 @@
                         <input type="text" placeholder="Имя *" required>
                     </label>
                     <label class="contact-form__field">
-                        <input type="tel" placeholder="Тел *" required>
+                        <input class="phone-mask" type="text" placeholder="Тел *" required>
                     </label>
 
                     <button type="submit" class="contact-form__btn btn btn--main">Отправить <span

@@ -2,11 +2,13 @@
 @import "common/variables";
 @import "~swiper/swiper-vars";
 @import "~swiper/swiper";
+@import "~magnify/dist/css/magnify.css";
 
 /** Import theme styles */
 @import "common/reset";
 @import "common/global";
 @import "common/icons";
+@import "common/magnify";
 @import "components/buttons";
 @import "components/comments";
 @import "components/forms";

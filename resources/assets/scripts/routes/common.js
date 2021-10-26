@@ -1,8 +1,19 @@
 import Swiper from 'swiper/swiper-bundle.min'
+import IMask from 'imask';
 import accordion from '../accordion';
 
 export default {
     init() {
+        const phones = document.querySelectorAll('.phone-mask')
+        
+        const lang = document.querySelector('html').getAttribute('lang')
+        const mask = lang === 'ru-RU' ? '+{7} (000) 000-00-00' : '(000) 000-0000';
+        
+        for (let i = 0; i < phones.length; i++) {
+            // eslint-disable-next-line
+            IMask(phones[i], { mask: mask, lazy: true,});
+        }
+        
         const $modals = document.querySelectorAll('.modal')
         const $modalBtns = document.querySelectorAll('.modal-open')
         $modals.forEach($modal => {
@@ -121,7 +132,7 @@ export default {
                         $navEl.forEach(($nav) => {
                             $nav.classList.remove('nav__li--toggle')
                         })
-    
+                        
                         $cap.classList.add('cap--active')
                         $el.classList.add('nav__li--toggle')
                     } else {

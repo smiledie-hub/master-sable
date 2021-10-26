@@ -7,17 +7,22 @@
             <div class="product-card__cell cell">
                 <div class="product-card__images">
                     <div class="product-card__cover">
-                        <img class="product-card__image" loading="lazy"
+                        <img class="product-card__image zoom" loading="lazy"
+                             data-magnify-src="{{ get_template_directory_uri().'/assets/images/product/img1x2.jpg' }}"
                              src="{{ get_template_directory_uri().'/assets/images/product/img1.jpg' }}" alt="cover">
                     </div>
 
                     <div class="product-card__cover">
-                        <img class="product-card__image" loading="lazy"
+                        <img class="product-card__image zoom"
+                             loading="lazy"
+                             data-magnify-src="{{ get_template_directory_uri().'/assets/images/product/img2x2.png' }}"
                              src="{{ get_template_directory_uri().'/assets/images/product/img2.png' }}" alt="cover">
                     </div>
 
                     <div class="product-card__cover">
-                        <img class="product-card__image" loading="lazy"
+                        <img class="product-card__image zoom"
+                             loading="lazy"
+                             data-magnify-src="{{ get_template_directory_uri().'/assets/images/product/img3x2.jpg' }}"
                              src="{{ get_template_directory_uri().'/assets/images/product/img3.jpg' }}" alt="cover">
                     </div>
                 </div>
