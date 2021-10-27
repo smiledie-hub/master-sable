@@ -39,7 +39,7 @@
                             <p class="catalog-filter-select__title">КАЧЕСТВО</p>
                             <p class="catalog-filter-select__icon"><span class="icon-arrow-down"></span></p>
                         </div>
-                        <span class="catalog-filter__clear">сбросить фильтр</span>
+                        <span class="catalog-filter__clear">сбросить <span>фильтр</span></span>
                     </div>
 
                     <div class="catalog-filter-select__content">

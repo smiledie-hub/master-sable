@@ -1,6 +1,14 @@
 $icomoon-font-family: "icons" !default;
 $icomoon-font-path: "/wp-content/themes/master-sable/resources/assets/fonts" !default;
 
+$icon-error: "\e91a";
+$icon-success: "\e91b";
+$icon-pin: "\e919";
+$icon-question: "\e918";
+$icon-close: "\e917";
+$icon-sold: "\e914";
+$icon-collect: "\e915";
+$icon-planet: "\e916";
 $icon-cult: "\e913";
 $icon-logotype: "\e900";
 $icon-gold: "\e901";
@@ -22,14 +30,14 @@ $icon-phone: "\e910";
 $icon-play: "\e911";
 $icon-recomended: "\e912";
 
+
 @font-face {
   font-family: "#{$icomoon-font-family}";
   src: url("#{$icomoon-font-path}/#{$icomoon-font-family}.eot?e7yc6t#iefix");
-  src:
-    url("#{$icomoon-font-path}/#{$icomoon-font-family}.eot?e7yc6t#iefix") format("embedded-opentype"),
-    url("#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?e7yc6t") format("truetype"),
-    url("#{$icomoon-font-path}/#{$icomoon-font-family}.woff?e7yc6t") format("woff"),
-    url("#{$icomoon-font-path}/#{$icomoon-font-family}.svg?e7yc6t##{$icomoon-font-family}") format("svg");
+  src: url("#{$icomoon-font-path}/#{$icomoon-font-family}.eot?e7yc6t#iefix") format("embedded-opentype"),
+  url("#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?e7yc6t") format("truetype"),
+  url("#{$icomoon-font-path}/#{$icomoon-font-family}.woff?e7yc6t") format("woff"),
+  url("#{$icomoon-font-path}/#{$icomoon-font-family}.svg?e7yc6t##{$icomoon-font-family}") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -48,123 +56,170 @@ $icon-recomended: "\e912";
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-error {
+  &:before {
+    content: $icon-error;
+  }
+}
+
+.icon-success {
+  &:before {
+    content: $icon-success;
+  }
+}
+
+.icon-pin {
+  &:before {
+    content: $icon-pin;
+  }
+}
+
+.icon-question {
+  &:before {
+    content: $icon-question;
+  }
+}
+
+.icon-close {
+  &:before {
+    content: $icon-close;
+  }
+}
+
+.icon-sold {
+  &:before {
+    content: $icon-sold;
+  }
+}
+
+.icon-collect {
+  &:before {
+    content: $icon-collect;
+  }
+}
+
+.icon-planet {
+  &:before {
+    content: $icon-planet;
+  }
+}
+
 .icon-cult {
-  &::before {
+  &:before {
     content: $icon-cult;
   }
 }
 
 .icon-logotype {
-  &::before {
+  &:before {
     content: $icon-logotype;
   }
 }
 
 .icon-gold {
-  &::before {
+  &:before {
     content: $icon-gold;
   }
 }
 
 .icon-sable {
-  &::before {
+  &:before {
     content: $icon-sable;
   }
 }
 
 .icon-diamond {
-  &::before {
+  &:before {
     content: $icon-diamond;
   }
 }
 
 .icon-long-arrow {
-  &::before {
+  &:before {
     content: $icon-long-arrow;
   }
 }
 
 .icon-arrow-down {
-  &::before {
+  &:before {
     content: $icon-arrow-down;
   }
 }
 
 .icon-arrow-up {
-  &::before {
+  &:before {
     content: $icon-arrow-up;
   }
 }
 
 .icon-arrow-left {
-  &::before {
+  &:before {
     content: $icon-arrow-left;
   }
 }
 
 .icon-arrow-right {
-  &::before {
+  &:before {
     content: $icon-arrow-right;
   }
 }
 
 .icon-box {
-  &::before {
+  &:before {
     content: $icon-box;
   }
 }
 
 .icon-checkit {
-  &::before {
+  &:before {
     content: $icon-checkit;
   }
 }
 
 .icon-exclusive {
-  &::before {
+  &:before {
     content: $icon-exclusive;
   }
 }
 
 .icon-feather {
-  &::before {
+  &:before {
     content: $icon-feather;
   }
 }
 
 .icon-instagram {
-  &::before {
+  &:before {
     content: $icon-instagram;
   }
 }
 
 .icon-facebook {
-  &::before {
+  &:before {
     content: $icon-facebook;
   }
 }
 
 .icon-logotype-icon {
-  &::before {
+  &:before {
     content: $icon-logotype-icon;
   }
 }
 
 .icon-phone {
-  &::before {
+  &:before {
     content: $icon-phone;
   }
 }
 
 .icon-play {
-  &::before {
+  &:before {
     content: $icon-play;
   }
 }
 
 .icon-recomended {
-  &::before {
+  &:before {
     content: $icon-recomended;
   }
 }
-

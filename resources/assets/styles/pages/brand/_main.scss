@@ -10,6 +10,10 @@
   &__mission {
     margin-bottom: 185px;
 
+    @media (max-width: 1440px) {
+      margin-bottom: 100px;
+    }
+
     @media (max-width: 767px) {
       margin-bottom: 40px;
     }
@@ -17,6 +21,10 @@
 
   &__command {
     margin-bottom: 140px;
+
+    @media (max-width: 1440px) {
+      margin-bottom: 100px;
+    }
 
     @media (max-width: 767px) {
       margin-bottom: 80px;

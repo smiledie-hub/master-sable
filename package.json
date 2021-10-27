@@ -74,6 +74,7 @@
   "dependencies": {
     "imask": "^6.2.2",
     "jquery": "^3.3.1",
+    "lity": "^2.4.1",
     "magnify": "^2.3.3",
     "popper.js": "^1.14.7",
     "swiper": "^7.0.8"

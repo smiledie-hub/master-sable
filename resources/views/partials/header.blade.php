@@ -19,9 +19,8 @@
                         <div class="nav__content">
                             <div class="container container--full">
                                 <div class="nav__wrapper">
-                                    <button class="nav__close close">
-                                        <span class="close__line"></span>
-                                        <span class="close__line"></span>
+                                    <button class="nav__close">
+                                        <span class="icon-close"></span>
                                     </button>
 
                                     <div class="nav__submenu">
@@ -45,9 +44,8 @@
                         <div class="nav__content">
                             <div class="container container--full">
                                 <div class="nav__wrapper">
-                                    <button class="nav__close close">
-                                        <span class="close__line"></span>
-                                        <span class="close__line"></span>
+                                    <button class="nav__close">
+                                        <span class="icon-close"></span>
                                     </button>
 
                                     <div class="nav__submenu-items">
@@ -113,9 +111,8 @@
                         <div class="nav__content">
                             <div class="container container--full">
                                 <div class="nav__wrapper">
-                                    <button class="nav__close close">
-                                        <span class="close__line"></span>
-                                        <span class="close__line"></span>
+                                    <button class="nav__close">
+                                        <span class="icon-close"></span>
                                     </button>
 
                                     <div class="nav__submenu">

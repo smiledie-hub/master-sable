@@ -4,11 +4,12 @@
             <div class="contact__cell cell">
                 <div>
                     <a class="contact__phone" href="tel:+79221403888" target="_blank">+7 922 140 38 88</a>
+                    <p class="contact__caption">Головной офис в Екатеринбурге</p>
                     <h1 class="contact__address">Екатеринбург ул. Хохрякова, 48 (КД Тихвин, 4 очередь)</h1>
                     <a class="contact__email" href="mailto:info@mastersobol.ru" target="_blank">info@mastersobol.ru</a>
                 </div>
                 <div>
-                    <a class="contact__btn btn btn--main" href="#">Записаться на консультацию <span
+                    <a class="contact__btn btn btn--main modal-open" data-modal="contact-form" href="#">Запишитесь на встречу с нами <span
                                 class="btn__icon icon-long-arrow"></span></a>
                 </div>
             </div>

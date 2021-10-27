@@ -1,0 +1,43 @@
+.question {
+  position: relative;
+  margin-left: 1em;
+  transition: 300ms;
+
+  &__header {
+
+  }
+
+  &:hover {
+    .question__header {
+      opacity: 0.6;
+    }
+    .question__main {
+      visibility: visible;
+      opacity: 1;
+    }
+  }
+
+  &__main {
+    position: absolute;
+    top: -8px;
+    width: 280px;
+    right: 130%;
+    opacity: 0;
+    visibility: hidden;
+    transition: 300ms;
+    background-color: #fff;
+    padding: 12px;
+    border: 1px solid #d2d2d2;
+    font-size: 14px;
+    line-height: 150%;
+
+    @media (max-width: 490px) {
+      top: 120%;
+      right: -100px;
+    }
+
+    @media (max-width: 390px) {
+      right: -70px;
+    }
+  }
+}

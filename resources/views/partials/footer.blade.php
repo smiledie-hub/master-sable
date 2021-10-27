@@ -47,7 +47,7 @@
         <div class="footer__wrapper">
             <div class="footer__start">
                 <div class="footer__logotype logotype">
-                    <a href="{{ home_url() }}" class="link link--default"><span class="icon-logotype"></span></a>
+                    <a href="{{ home_url() }}" class="link link--default"><span class="icon-logotype-icon"></span></a>
                 </div>
                 <div>
                     <p class="footer__text">© Copyright {{ date('Y') }} Master Sobol</p>
@@ -148,8 +148,8 @@
                                     class="icon-facebook"></span></a>
                     </div>
 
-                    <p class="footer__adress">Екатеринбург ул. Хохрякова, 48 (КД Тихвин 4 очередь)</p>
-                    <p class="footer__adress">Москва, ул. Докукина, 17 стр. 3, офис 15 (пункт выдачи)</p>
+                    <p class="footer__adress"><span class="footer__adress-icon icon-pin"></span><span>Екатеринбург ул. Хохрякова, 48 (КД Тихвин 4 очередь)</span></p>
+                    <p class="footer__adress"><span class="footer__adress-icon icon-pin"></span><span>Москва, ул. Докукина, 17 стр. 3, офис 15 (пункт выдачи)</span></p>
                 </div>
             </div>
         </div>

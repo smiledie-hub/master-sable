@@ -2,6 +2,10 @@
   &__banner {
     margin-bottom: 160px;
 
+    @media (max-width: 1440px) {
+      margin-bottom: 100px;
+    }
+
     @media (max-width: 767px) {
       margin-bottom: 40px;
     }
@@ -9,6 +13,10 @@
 
   &__unique {
     margin-bottom: 182px;
+
+    @media (max-width: 1440px) {
+      margin-bottom: 100px;
+    }
 
     @media (max-width: 767px) {
       margin-bottom: 40px;
@@ -18,6 +26,10 @@
   &__sets {
     margin-bottom: 277px;
 
+    @media (max-width: 1440px) {
+      margin-bottom: 100px;
+    }
+
     @media (max-width: 767px) {
       margin-bottom: 80px;
     }
@@ -25,6 +37,10 @@
 
   &__offer {
     margin-bottom: 190px;
+
+    @media (max-width: 1440px) {
+      margin-bottom: 100px;
+    }
 
     @media (max-width: 767px) {
       margin-bottom: 80px;
@@ -34,6 +50,10 @@
   &__jewel {
     margin-bottom: 192px;
 
+    @media (max-width: 1440px) {
+      margin-bottom: 100px;
+    }
+
     @media (max-width: 767px) {
       margin-bottom: 80px;
     }
@@ -41,6 +61,10 @@
 
   &__quality {
     margin-bottom: 140px;
+
+    @media (max-width: 1440px) {
+      margin-bottom: 100px;
+    }
 
     @media (max-width: 767px) {
       margin-bottom: 80px;

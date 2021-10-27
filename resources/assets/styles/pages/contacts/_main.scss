@@ -2,6 +2,11 @@
   padding-top: 140px;
   padding-bottom: 140px;
 
+  @media (max-width: 1440px) {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
   @media (max-width: 767px) {
     padding-top: 40px;
     padding-bottom: 40px;
@@ -19,12 +24,23 @@
     line-height: 121%;
     display: block;
     font-size: 48px;
-    margin-bottom: 75px;
+    margin-bottom: 68px;
 
     @media (max-width: 767px) {
       font-size: 21px;
       margin-bottom: 21px;
     }
+  }
+
+  &__caption {
+    font-family: Playfair Display, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 393%;
+    letter-spacing: 0.05em;
+    color: #0C0C0C;
+    opacity: 0.6;
   }
 
   &__address {

@@ -189,9 +189,11 @@
 
         </div>
 
-        <div class="cells">
-            <div class="cell"></div>
-            <div class="cell">
+        <div class="palette__cells cells">
+            <div class="palette__cell cell">
+                <span class="palette__icon icon-planet"></span>
+            </div>
+            <div class="palette__cell cell">
                 <p class="palette__text">Наш продукт экологичен! Мы не применяем химикаты, которые используются при
                     тонировке</p>
             </div>

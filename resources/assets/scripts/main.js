@@ -1,6 +1,9 @@
 // import external dependencies
 import 'jquery';
 import 'magnify/dist/js/jquery.magnify'
+import 'lity/dist/lity.min'
+
+import './form';
 
 // import local dependencies
 import Router from './util/Router';

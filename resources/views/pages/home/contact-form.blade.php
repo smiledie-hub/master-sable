@@ -23,6 +23,8 @@
                     <button type="submit" class="contact-form__btn btn btn--main">Отправить <span
                                 class="btn__icon icon-long-arrow"></span></button>
 
+                    <div class="output"></div>
+
                     <p class="contact-form__caption">Нажимая кнопку «Отправить», вы соглашаетесь предоставить вашу
                         информацию компании «Мастер Соболь»,
                         которая обязуется использовать ее в соответствии со своей <a

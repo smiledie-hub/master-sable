@@ -3,6 +3,7 @@
 @import "~swiper/swiper-vars";
 @import "~swiper/swiper";
 @import "~magnify/dist/css/magnify.css";
+@import "~lity/dist/lity.min.css";
 
 /** Import theme styles */
 @import "common/reset";
@@ -32,6 +33,7 @@
 @import "components/mailing";
 @import "components/box-icon";
 @import "components/modal";
+@import "components/question";
 
 /** HOME */
 @import "pages/home/main";

@@ -93,6 +93,12 @@
     &--no-empty {
       .catalog-filter__clear {
         display: block;
+
+        & > span {
+          @media (max-width: 1440px) {
+            display: none;
+          }
+        }
       }
     }
 

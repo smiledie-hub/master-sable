@@ -1,5 +1,5 @@
 <section class="banner-single brand-banner">
-    <a href="#" class="brand-banner__link">
+    <a href="#" class="brand-banner__link" data-lity data-lity-target="https://youtu.be/4jpxGWShwM4">
         <span class="brand-banner__icon icon-play"></span>
         <span class="brand-banner__text">Посмотрите наше видео</span>
     </a>

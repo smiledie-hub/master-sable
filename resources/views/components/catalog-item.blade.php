@@ -9,6 +9,10 @@
                         <span class="exclusive__icon icon icon-exclusive"></span>
                         <span class="exclusive__text">EXCLUSIVE</span>
                     </div>
+                @elseif($going)
+                    <span class="icon-collect"></span>
+                @elseif($ended)
+                    <span class="icon-sold"></span>
                 @endif
             </div>
             <div class="catalog-item__offscreen__footer">

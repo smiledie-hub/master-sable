@@ -47,6 +47,14 @@
 
                                 <div class="specification__footer">
                                     <p class="specification__text">PURE</p>
+                                    <div class="question">
+                                        <div class="question__header">
+                                            <span class="question__icon icon-question"></span>
+                                        </div>
+                                        <div class="question__main">
+                                            <span class="question__text">Расширенная гарантия на 2 года. Пожизненное обслуживание изделий.</span>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="specification">

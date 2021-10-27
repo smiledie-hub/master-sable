@@ -14,7 +14,7 @@ body {
 * {
   box-sizing: border-box;
   -webkit-tap-highlight-color: transparent;
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 
   &:focus {
     outline: none;
@@ -124,5 +124,37 @@ img {
 
   &-brown {
     color: $color-brown;
+  }
+}
+
+.error {
+  color: #D81F1F;
+
+  &__icon {
+    margin-left: 21px !important;
+  }
+}
+
+.success {
+  color: #2BAD38;
+}
+
+.error, .success {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.02em;
+  margin-bottom: 30px;
+
+  &__text {
+    max-width: 190px;
+  }
+
+  &__icon {
+    font-size: 25px;
+    margin-left: 15px;
   }
 }
