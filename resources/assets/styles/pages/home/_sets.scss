@@ -42,5 +42,9 @@
       align-items: center;
       justify-content: space-between;
     }
+
+    @media (max-width: 767px) {
+      margin: 40px auto 0;
+    }
   }
 }

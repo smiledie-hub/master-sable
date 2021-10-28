@@ -13,6 +13,12 @@
       margin-right: auto;
       margin-left: auto;
     }
+
+    &--no-mobile {
+      @media (max-width: 767px) {
+        display: none;
+      }
+    }
   }
 
   &__catalog {

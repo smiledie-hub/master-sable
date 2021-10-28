@@ -53,28 +53,28 @@
     justify-content: space-between;
     grid-template-columns: minmax(250px, 280px) 1fr minmax(280px, 430px);
     grid-template-areas: "start navs end";
-    grid-gap: 0 150px;
+    gap: 0 150px;
 
     @media (max-width: 1760px) {
-      grid-gap: 0 100px;
+      gap: 0 100px;
     }
 
     @media (max-width: 1560px) {
-      grid-gap: 0 50px;
+      gap: 0 50px;
     }
 
     @media (max-width: 1460px) {
-      grid-gap: 0 30px;
+      gap: 0 30px;
     }
 
     @media (max-width: 1360px) {
       grid-template-columns: 1fr 1fr;
       grid-template-areas: "start navs" "end end";
-      grid-gap: 100px;
+      gap: 100px;
     }
 
     @media (max-width: 767px) {
-      grid-gap: 40px;
+      gap: 40px;
     }
 
     @media (max-width: 1200px) {
@@ -90,7 +90,7 @@
   &__section {
     display: flex;
     justify-content: space-between;
-    grid-gap: 30px;
+    gap: 30px;
 
     &:not(:last-child) {
       margin-bottom: 64px;
@@ -123,7 +123,7 @@
     @media (max-width: 1360px) {
       display: flex;
       max-width: 100%;
-      grid-gap: 35px;
+      gap: 35px;
     }
 
     .mailing {

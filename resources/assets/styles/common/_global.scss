@@ -84,7 +84,7 @@ img {
 
 .cells {
   display: flex;
-  grid-gap: 20px 30px;
+  gap: 20px 30px;
 
   @media (max-width: 1000px) {
     flex-direction: column;

@@ -130,7 +130,7 @@
   justify-content: space-between;
   text-align: center;
   grid-template-columns: repeat(2, 173px);
-  grid-gap: 70px;
+  gap: 70px;
   display: none;
 
   @media (max-width: 1000px) {

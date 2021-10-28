@@ -1,6 +1,16 @@
 .quality {
+  &__cells {
+    @media (max-width: 767px) {
+      display: block;
+    }
+  }
+
   &__container-title {
     max-width: 637px;
+
+    @media (max-width: 767px) {
+      margin-bottom: 1em;
+    }
   }
 
   &__header {

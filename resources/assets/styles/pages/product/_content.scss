@@ -33,7 +33,7 @@
   &__images {
     display: flex;
     flex-direction: column;
-    grid-gap: 30px;
+    gap: 30px;
   }
 
   &__cover {
@@ -61,6 +61,10 @@
 
   &__title {
     margin-bottom: 20px;
+
+    @media (max-width: 767px) {
+      margin-bottom: 5px;
+    }
   }
 
   &__code {
@@ -70,6 +74,10 @@
     opacity: 0.4;
 
     margin-bottom: 85px;
+
+    @media (max-width: 767px) {
+      margin-bottom: 30px;
+    }
   }
 
   &__price {

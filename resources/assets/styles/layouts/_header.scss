@@ -114,6 +114,20 @@
     &-icon {
       transition: font-size 300ms;
 
+      &--mobile {
+        display: none;
+
+        @media (max-width: 1000px) {
+          display: block;
+        }
+      }
+
+      &--descktop {
+        @media (max-width: 1000px) {
+          display: none;
+        }
+      }
+
       @media (max-width: 1120px) {
         font-size: 60px;
       }
@@ -156,21 +170,21 @@
     & > ul {
       display: flex;
       align-items: center;
-      grid-gap: 50px;
+      gap: 50px;
 
       @media (max-width: 1275px) {
-        grid-gap: 30px;
+        gap: 30px;
       }
 
       @media (max-width: 1160px) {
-        grid-gap: 20px;
+        gap: 20px;
       }
 
       @media (max-width: 1000px) {
         flex-direction: column;
         align-items: flex-start;
         justify-content: flex-start;
-        grid-gap: 30px;
+        gap: 30px;
         padding: 100px 0;
         display: flex;
         width: 100%;
@@ -460,10 +474,10 @@
 
     &-items {
       display: flex;
-      grid-gap: 40px;
+      gap: 40px;
 
       @media (max-width: 1120px) {
-        grid-gap: 40px;
+        gap: 40px;
       }
 
       @media (max-width: 1000px) {
@@ -486,14 +500,14 @@
 
   &__wrapper {
     display: flex;
-    grid-gap: 40px;
+    gap: 40px;
     align-items: center;
     justify-content: center;
     height: 311px;
     overflow-y: auto;
 
     @media (max-width: 1120px) {
-      grid-gap: 20px;
+      gap: 20px;
     }
 
     @media (max-width: 1000px) {
@@ -512,6 +526,10 @@
         margin-top: 20px;
         width: 100%;
         max-width: 300px;
+      }
+
+      @media (max-width: 767px) {
+        display: none;
       }
     }
   }

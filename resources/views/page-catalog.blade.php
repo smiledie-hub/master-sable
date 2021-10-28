@@ -8,7 +8,7 @@
         </div>
 
         <div class="container container--full">
-            <p class="singlepage-catalog__caption">Подобрать по типу внешности</p>
+            <p class="singlepage-catalog__caption singlepage-catalog__caption--no-mobile">Подобрать по типу внешности</p>
         </div>
 
         <div class="singlepage-catalog__catalog">

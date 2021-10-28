@@ -57,6 +57,12 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 27px;
+
+    @media (max-width: 767px) {
+      font-size: 18px;
+      line-height: normal;
+      margin-top: 1em;
+    }
   }
 
   &__jewels-wrapper {
@@ -73,7 +79,8 @@
       align-items: flex-end;
 
       @media (max-width: 767px) {
-        margin-bottom: 80px;
+        margin-bottom: 40px;
+        flex-direction: column-reverse;
       }
     }
 
@@ -92,18 +99,23 @@
 .jewels {
   display: flex;
   justify-content: space-between;
-  grid-gap: 26px;
+  gap: 26px;
 
   @media (max-width: 767px) {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    grid-gap: 60px;
+    display: block;
   }
 }
 
 .jewel-item {
   max-width: 200px;
+  @media (max-width: 767px) {
+    margin: 0 auto;
+    text-align: center;
+
+    &:not(:last-child) {
+      margin-bottom: 3em;
+    }
+  }
 
   &__icon {
     display: block;

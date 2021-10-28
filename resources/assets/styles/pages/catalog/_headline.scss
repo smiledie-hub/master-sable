@@ -25,10 +25,6 @@
     @media (max-width: 1000px) {
       margin: 0 auto;
     }
-
-    @media (max-width: 460px) {
-      padding-left: 40px;
-    }
   }
 
   &__caption-icon {
@@ -46,8 +42,8 @@
     font-size: 0.8em;
     user-select: none;
 
-    @media (max-width: 460px) {
-      left: 0;
+    @media (max-width: 767px) {
+      display: none;
     }
   }
 

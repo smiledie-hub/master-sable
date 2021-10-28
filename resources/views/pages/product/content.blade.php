@@ -179,3 +179,13 @@
         </div>
     </div>
 </section>
+
+<script>
+    jQuery(document).ready(() => {
+        if(window.innerWidth <= 772) {
+            const block = jQuery(".product-card__images")
+            const el = jQuery('.product-card__slider')
+            block.append(el)
+        }
+    });
+</script>

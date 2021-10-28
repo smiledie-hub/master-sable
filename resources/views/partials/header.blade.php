@@ -8,8 +8,10 @@
                     <span class="hamburger__line"></span>
                 </div>
 
-                <a href="{{ home_url() }}" class="link link--default"><span
-                            class="cap__logotype-icon icon-logotype"></span></a>
+                <a href="{{ home_url() }}" class="link link--default">
+                    <span class="cap__logotype-icon cap__logotype-icon--descktop icon-logotype"></span>
+                    <span class="cap__logotype-icon cap__logotype-icon--mobile icon-logotype-icon"></span>
+                </a>
             </div>
             <nav class="cap__nav nav">
                 <ul>
