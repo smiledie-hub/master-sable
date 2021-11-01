@@ -44,13 +44,24 @@
 
 .catalog-products {
   &__items {
-    display: grid;
-    grid-template-columns: repeat(4, minmax(320px, 350px));
-    gap: 60px 30px;
-    margin-bottom: 84px;
+    margin-bottom: 24px;
 
-    @media (max-width: 1730px) {
-      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    .catalog-item {
+      width: calc(25% - 23px);
+      height: auto;
+      margin-bottom: 60px;
+
+      @media (max-width: 1600px) {
+        width: calc(33% - 20px)
+      }
+
+      @media (max-width: 1200px) {
+        width: calc(50% - 20px)
+      }
+
+      @media (max-width: 470px) {
+        width: 100%
+      }
     }
   }
 
@@ -65,8 +76,43 @@
     }
   }
 }
+.catalog-filter__title {
+  display: none;
+  background: $color-light-gray;
+  padding: 15px;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: space-between;
 
+  @media (max-width: 1000px) {
+    display: flex;
+  }
+
+  .icon-arrow-down {
+    transition: .3s;
+  }
+
+  &--show {
+    .icon-arrow-down {
+      transform: scaleY(-1);
+    }
+  }
+}
 .catalog-filter {
+  @media (max-width: 1000px) {
+    opacity: 0;
+    visibility: hidden;
+    height: 0;
+    transition: .3s;
+  }
+
+  &--show {
+    @media (max-width: 1000px) {
+      height: auto;
+      opacity: 1;
+      visibility: visible;
+    }
+  }
   &__clear {
     cursor: pointer;
     font-weight: 500;
@@ -114,6 +160,12 @@
 }
 
 .catalog-filter-radio {
+  &--type {
+    @media (max-width: 1000px) {
+      display: none;
+    }
+  }
+
   &__header {
     margin-bottom: 35px;
   }
@@ -301,6 +353,7 @@
     font-size: 14px;
     letter-spacing: 0.03em;
     margin-bottom: 12px;
+    text-transform: uppercase;
   }
 
   &__text {

@@ -38,7 +38,7 @@ if (version_compare('4.7.0', get_bloginfo('version'), '>=')) {
  * Ensure dependencies are loaded
  */
 if (!class_exists('Roots\\Sage\\Container')) {
-    if (!file_exists($composer = __DIR__.'/../vendor/autoload.php')) {
+    if (!file_exists($composer = __DIR__ . '/../vendor/autoload.php')) {
         $sage_error(
             __('You must run <code>composer install</code> from the Sage directory.', 'sage'),
             __('Autoloader not found.', 'sage')
@@ -85,8 +85,40 @@ array_map(
 Container::getInstance()
     ->bindIf('config', function () {
         return new Config([
-            'assets' => require dirname(__DIR__).'/config/assets.php',
-            'theme' => require dirname(__DIR__).'/config/theme.php',
-            'view' => require dirname(__DIR__).'/config/view.php',
+            'assets' => require dirname(__DIR__) . '/config/assets.php',
+            'theme' => require dirname(__DIR__) . '/config/theme.php',
+            'view' => require dirname(__DIR__) . '/config/view.php',
         ]);
     }, true);
+
+function custom_post_type()
+{
+    $labels = array(
+        'name' => 'Товары',
+        'singular_name' => 'Товар',
+        'menu_name' => 'Товары',
+        'name_admin_bar' => 'Товар',
+        'all_items' => 'Все товары',
+        'add_new_item' => 'Добавить новый товар',
+        'add_new' => 'Новый товар',
+        'new_item' => 'Новый товар',
+        'edit_item' => 'Редактировать товар',
+        'update_item' => 'Обновить товар',
+        'view_item' => 'Показать товар',
+        'view_items' => 'Показать товары',
+        'search_items' => 'Поиск товара',
+        'not_found' => 'Ничего нет',
+        'not_found_in_trash' => 'В корзине ничего нет',
+    );
+    $args = array(
+        'labels' => $labels,
+        'supports' => ['title'],
+        'show_ui' => true,
+        'capability_type' => 'post',
+        'public' => true,
+    );
+    register_post_type('products', $args);
+
+}
+
+add_action('init', 'custom_post_type', 0);

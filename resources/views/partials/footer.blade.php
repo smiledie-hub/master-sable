@@ -78,20 +78,20 @@
                         <p class="footer__title">ШУБНЫЕ НАБОРЫ</p>
 
                         <nav class="footer__nav">
-                            <a href="/catalog">Соболь</a>
-                            <a href="/catalog">Куница</a>
-                            <a href="/catalog">Рысь</a>
-                            <a href="/catalog">Другие меха</a>
+                            <a href="/catalog?type=fur_kits&subtype=sable">Соболь</a>
+                            <a href="/catalog?type=fur_kits&subtype=marten">Куница</a>
+                            <a href="/catalog?type=fur_kits&subtype=lynx">Рысь</a>
+                            <a href="/catalog?type=fur_kits&subtype=other_furs">Другие меха</a>
                         </nav>
                     </div>
                     <div class="footer__section-item">
                         <p class="footer__title">ТКАНИ</p>
 
                         <nav class="footer__nav">
-                            <a href="/catalog">Кашемир</a>
-                            <a href="/catalog">Шерсть</a>
-                            <a href="/catalog">Шелк</a>
-                            <a href="/catalog">Батист</a>
+                            <a href="/catalog?type=fabrics&subtype=cashmere">Кашемир</a>
+                            <a href="/catalog?type=fabrics&subtype=wool">Шерсть</a>
+                            <a href="/catalog?type=fabrics&subtype=silk">Шелк</a>
+                            <a href="/catalog?type=fabrics&subtype=batiste">Батист</a>
                         </nav>
                     </div>
                 </div>
@@ -110,18 +110,18 @@
                         <p class="footer__title">КОЖА</p>
 
                         <nav class="footer__nav">
-                            <a href="/catalog">Кожа и замша</a>
-                            <a href="/catalog">Экзотическая кожа</a>
+                            <a href="/catalog?type=leather&subtype=leather_suede">Кожа и замша</a>
+                            <a href="/catalog?type=leather&subtype=exotic_leather">Экзотическая кожа</a>
                         </nav>
                     </div>
                     <div class="footer__section-item">
                         <p class="footer__title">ДРУГОЕ</p>
 
                         <nav class="footer__nav">
-                            <a href="/catalog">Фурнитура</a>
-                            <a href="/catalog">Подарки и аксесcуары</a>
-                            <a href="/catalog">Интерьер</a>
-                            <a href="/catalog">Гравировка по нерпе</a>
+                            <a href="/catalog?type=accessories&subtype=all_fittings">Фурнитура</a>
+                            <a href="/catalog?type=other&subtype=gifts_accessories">Подарки и аксесcуары</a>
+                            <a href="/catalog?type=other&subtype=interior">Интерьер</a>
+                            <a href="/catalog?type=other&subtype=seal_engraving">Гравировка по нерпе</a>
                         </nav>
                     </div>
                 </div>

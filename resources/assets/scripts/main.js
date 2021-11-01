@@ -9,6 +9,7 @@ import './form';
 import Router from './util/Router';
 import common from './routes/common';
 import home from './routes/home';
+import catalog from './routes/catalog';
 import aboutUs from './routes/about';
 import ourPartners from './routes/our-partners';
 import ourProduction from './routes/our-production';
@@ -17,6 +18,7 @@ import ourProduction from './routes/our-production';
 const routes = new Router({
     common,
     home,
+    catalog,
     aboutUs,
     ourPartners,
     ourProduction,

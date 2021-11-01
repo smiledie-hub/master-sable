@@ -54,52 +54,62 @@
                                         <div class="nav__submenu">
                                             <p class="nav__title">ШУБНЫЕ НАБОРЫ</p>
                                             <ul>
-                                                <li class="nav__li"><a href="/catalog" class="nav__link">Соболь</a></li>
-                                                <li class="nav__li"><a href="/catalog" class="nav__link">Куница</a></li>
-                                                <li class="nav__li"><a href="/catalog#" class="nav__link">Рысь</a></li>
-                                                <li class="nav__li"><a href="/catalog" class="nav__link">Другие меха</a>
-                                                </li>
+                                                <li class="nav__li"><a href="/catalog?type=fur_kits&subtype=sable"
+                                                                       class="nav__link">Соболь</a></li>
+                                                <li class="nav__li"><a href="/catalog?type=fur_kits&subtype=marten"
+                                                                       class="nav__link">Куница</a></li>
+                                                <li class="nav__li"><a href="/catalog?type=fur_kits&subtype=lynx"
+                                                                       class="nav__link">Рысь</a></li>
+                                                <li class="nav__li"><a href="/catalog?type=fur_kits&subtype=other_furs"
+                                                                       class="nav__link">Другие меха</a></li>
                                             </ul>
                                         </div>
 
                                         <div class="nav__submenu">
                                             <p class="nav__title">ТКАНИ</p>
                                             <ul>
-                                                <li class="nav__li"><a href="/catalog" class="nav__link">Кашемир</a>
-                                                </li>
-                                                <li class="nav__li"><a href="/catalog" class="nav__link">Шерсть</a></li>
-                                                <li class="nav__li"><a href="/catalog" class="nav__link">Шелк</a></li>
-                                                <li class="nav__li"><a href="/catalog" class="nav__link">Батист</a></li>
+                                                <li class="nav__li"><a href="/catalog?type=fabrics&subtype=cashmere"
+                                                                       class="nav__link">Кашемир</a></li>
+                                                <li class="nav__li"><a href="/catalog?type=fabrics&subtype=wool"
+                                                                       class="nav__link">Шерсть</a></li>
+                                                <li class="nav__li"><a href="/catalog?type=fabrics&subtype=silk"
+                                                                       class="nav__link">Шелк</a></li>
+                                                <li class="nav__li"><a href="/catalog?type=fabrics&subtype=batiste"
+                                                                       class="nav__link">Батист</a></li>
                                             </ul>
                                         </div>
 
                                         <div class="nav__submenu">
                                             <p class="nav__title">ФУРНИТУРА</p>
                                             <ul>
-                                                <li class="nav__li"><a href="/catalog" class="nav__link">Вся
-                                                        фурнитура</a></li>
+                                                <li class="nav__li"><a
+                                                            href="/catalog?type=accessories&subtype=all_fittings"
+                                                            class="nav__link">Вся фурнитура</a></li>
                                             </ul>
                                         </div>
 
                                         <div class="nav__submenu">
                                             <p class="nav__title">КОЖА</p>
                                             <ul>
-                                                <li class="nav__li"><a href="/catalog" class="nav__link">Кожа и
-                                                        замша</a></li>
-                                                <li class="nav__li"><a href="/catalog" class="nav__link">Экзотическая
-                                                        кожа</a></li>
+                                                <li class="nav__li"><a
+                                                            href="/catalog?type=leather&subtype=leather_suede"
+                                                            class="nav__link">Кожа и замша</a></li>
+                                                <li class="nav__li"><a
+                                                            href="/catalog?type=leather&subtype=exotic_leather"
+                                                            class="nav__link">Экзотическая кожа</a></li>
                                             </ul>
                                         </div>
 
                                         <div class="nav__submenu">
                                             <p class="nav__title">ДРУГОЕ</p>
                                             <ul>
-                                                <li class="nav__li"><a href="/catalog" class="nav__link">Подарки и
-                                                        акссесуары</a></li>
-                                                <li class="nav__li"><a href="/catalog" class="nav__link">Интерьер</a>
-                                                </li>
-                                                <li class="nav__li"><a href="/catalog" class="nav__link">Гравировка по
-                                                        нерпе</a></li>
+                                                <li class="nav__li"><a
+                                                            href="/catalog?type=other&subtype=gifts_accessories"
+                                                            class="nav__link">Подарки и акссесуары</a></li>
+                                                <li class="nav__li"><a href="/catalog?type=other&subtype=interior"
+                                                                       class="nav__link">Интерьер</a></li>
+                                                <li class="nav__li"><a href="/catalog?type=other&subtype=seal_engraving"
+                                                                       class="nav__link">Гравировка по нерпе</a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -150,4 +160,4 @@
         </div>
     </div>
 </div>
-<a href="/contacts" data-modal="contact-form" class="modal-open submit-application btn btn-gray">Оставить заявку</a>
+<a href="#" data-modal="contact-form" class="modal-open submit-application btn btn-gray">Оставить заявку</a>

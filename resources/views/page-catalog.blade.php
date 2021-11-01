@@ -16,9 +16,7 @@
         </div>
 
         <div class="singlepage-catalog__offer">
-            @include('pages/home/offer', ['title' => 'Предложение для профессионалов', 'text' => 'Помимо оптовой и розничной продажи меховых наборов, мы предлагаем комплексные поставки, включающие в себя все
-                        необходимые материалы для изготовления продукции высокого качества, а также предоставляем возможность
-                        изготовления изделий по эскизам.', 'partner' => true])
+            @include('pages/home/offer', ['title' => get_field("offer", get_the_ID())['title'], 'text' => get_field("offer", get_the_ID())['text'], 'partner' => get_field("offer", get_the_ID())['partner']])
         </div>
         <div class="singlepage-catalog__contact-form">
             @include('pages.catalog.contact-form')

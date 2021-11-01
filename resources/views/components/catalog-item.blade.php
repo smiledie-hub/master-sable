@@ -1,8 +1,21 @@
-<article class="catalog-item swiper-slide">
+@php
+    $classes = [
+        get_field("attr", $ID)['quality'],
+        get_field("type", $ID),
+        get_field("fur", $ID),
+        get_field("fabrics", $ID),
+        get_field("accessories", $ID),
+        get_field("leather", $ID),
+        get_field("other", $ID)
+    ];
+    $strClass = implode(" ", array_filter($classes,'strlen'));
+@endphp
+
+<article class="catalog-item swiper-slide {{$strClass}}">
     <a href="{{ $link }}" class="catalog-item__link"></a>
 
     <div class="catalog-item__cover">
-        <div class="catalog-item__offscreen {{ $going || $ended?'catalog-item__offscreen--blur':'' }}">
+        <div class="catalog-item__offscreen {{ $going || $ended? 'catalog-item__offscreen--blur' : '' }}">
             <div class="catalog-item__offscreen__header">
                 @if($exlusive)
                     <div class="exclusive">
